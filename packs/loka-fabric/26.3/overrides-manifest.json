@@ -29,7 +29,7 @@
   },
   "overrides/config/fancymenu/assets/loka_logo_loading.png": {
     "source": "shared/overrides/config/fancymenu/assets/loka_logo_loading.png",
-    "sha512": "cf8dea234a1f0e150b695bea43dfccc3e055c1ea84de1f63fe9a45864e84b98819dd79cd8776334fa781ffefba1a5ac4ef5dac9de8288b39b27135d8ff189c80"
+    "sha512": "6df6b482b36aa1304f2aaba12c663e98c594be6007210d1eefd56415d2e389e57156ade42fff0ee97544f5b2fe008c6a3b402ca2bacbc4a07db033252cf78dd8"
   },
   "overrides/config/fancymenu/assets/loka_logo_watermark.png": {
     "source": "shared/overrides/config/fancymenu/assets/loka_logo_watermark.png",
@@ -45,7 +45,7 @@
   },
   "overrides/config/fancymenu/customizablemenus.txt": {
     "source": "shared/overrides/config/fancymenu/customizablemenus.txt",
-    "sha512": "96944388fca8c8ac6c5a8c6f0dd5bb41bcc420b26502ee8db6b62ffa2d73ca6930faa57860483df279c7d7d40d7c7a06483ab412730da5415e8960ced1ed411c"
+    "sha512": "283ef07201f10e8671dc2fb7349923dc35712e9dca8f71311f6831b9da0654bf2bb37cbfdc22cf84b2bb17d1bf870a6b4386065de29600bb30dc0499ae780145"
   },
   "overrides/config/fancymenu/customization/drippy_loading_overlay_layout.txt": {
     "source": "shared/overrides/config/fancymenu/customization/drippy_loading_overlay_layout.txt",
@@ -85,7 +85,7 @@
   },
   "overrides/config/packbranding/config.json": {
     "source": "packs/loka-fabric/26.3/overrides/config/packbranding/config.json",
-    "sha512": "6252e4caf5afbe86a14d95b7e6fb284cbc504edc61e3a58b7a4f2568ea8a8cb8dd741c26141f0c9b47000fe8cb34ff6885463c479c8b502a3e646182921c78e3"
+    "sha512": "eab0adecf7fe5295281c46ec2ea5f4b5f51c5e88e9393a9462c9c7f10566dad9df30738e2dc72aeb97193919479b221d3bd66d9cb1105e117dbe099f6885de35"
   },
   "overrides/config/packbranding/icon.png": {
     "source": "packs/loka-fabric/26.3/overrides/config/packbranding/icon.png",
@@ -119,9 +119,13 @@
     "source": "shared/overrides/servers.dat",
     "sha512": "5676710e86557d1cb5be331460f21ae70ce1c8ed2b94a2238b7dc95164b2e034c4970101c7bcfa4c7fb4a751f6fda52f461e02212a721932bf4dc24841b69c24"
   },
+  "overrides/config/fancymenu/customization/loka_singleplayer_background.txt": {
+    "source": "shared/overrides/config/fancymenu/customization/loka_singleplayer_background.txt",
+    "sha512": "42a826d7d9cc4d2851d42016d632145de08c029e156aeaab5080603b42a4a5e86a5befc8f51c3fd89d91e45adefb822cf219242ae006f6848d8cbcd90b93bee8"
+  },
   "overrides/mods/loka-ui-1.0.0.jar": {
     "source": "shared/overrides/mods/loka-ui-1.0.0.jar",
-    "sha512": "1eb1e536df0d8c38713a94c3a890862a97e17ecac56fcd59cf676ddbac94e21d66d4cb3b3b7f9d04324debabc6c54ca5021b8bdebdc5ad1cbbd4699c8216bea5"
+    "sha512": "60ba9b0c24d64de9938dcc3ecebe67f984fac3be83e9cb0368afb6b0eb2736ea3730d82e2b2ffc333e8abf94df7597d72caf858948b90212496d41d14b25b047"
   },
   "overrides/config/loka-presence.json": {
     "source": "shared/overrides/config/loka-presence.json",
@@ -129,6 +133,6 @@
   },
   "overrides/config/craftpresence.json": {
     "source": "packs/loka-fabric/26.3/overrides/config/craftpresence.json",
-    "sha512": "df721a9faedb76b2e9cdeeae1ecc92d5514ee2d32b27661ff276e0ee15c380299dbbf0146904b808d523f17f6b65fce4ccba00dcb4b11bd1ea52edd955f8963f"
+    "sha512": "6a4ec715122b920aebac8409d0c1c9b86d909d5b3fde0dbd1f2a48f2fa0f6dc8f373c425b2aaa1166b8f3df787e4164f6b1e35a8d114eee7182b4fdb9edb1581"
   }
 }

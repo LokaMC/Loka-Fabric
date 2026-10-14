@@ -2,5 +2,5 @@
   "required": true,
   "package": "com.lokamc.ui.mixin",
   "compatibilityLevel": "JAVA_25",
-  "client": ["SpriteIconButtonAccessor", "LevelLoadingScreenMixin", "ConnectionLoadingBackgroundMixin"]
+  "client": ["SpriteIconButtonAccessor", "LevelLoadingScreenMixin", "ConnectionLoadingBackgroundMixin", "MenuPanoramaBackgroundMixin"]
 }

@@ -20,7 +20,7 @@ public final class PresenceChecks {
     }
     public static void main(String[] args) throws Exception {
         UUID uuid = UUID.fromString("f52fbd09-a374-407c-8033-02acd1c9cc40");
-        JsonObject player = object("{\"id\":\"alt\",\"identityId\":\"person\",\"uuid\":\"" + uuid + "\"}");
+        JsonObject player = object("{\"id\":\"alt\",\"identityId\":\"person\",\"rank\":\"guardian\",\"uuid\":\"" + uuid + "\"}");
         JsonArray towns = array("""
             [{"id":"old","name":"Old Town","deleted":true,"members":{"person":{}}},
              {"id":"home","name":"§6Home Town","deleted":false,"members":{"person":{}},
@@ -32,11 +32,20 @@ public final class PresenceChecks {
             """);
         LokaMembership result = LokaMembership.resolve(player, towns, alliances);
         check(result.town().equals("Home Town") && result.alliance().equals("The Alliance"), "Identity-based membership including alts");
-        check(result.details().equals("Town • Home Town") && result.state().equals("Alliance • The Alliance"), "Display affiliation");
+        check(result.state().equals("Home Town of The Alliance"), "Affiliation on its own line");
+        check(new LokaPresenceSession(uuid, "Player", 0, result).details().equals("Player | Guardian"), "Username and public rank on first line");
         check(!result.toString().contains("SECRET"), "No world, coordinates, slogan or vulnerability data");
-        check(LokaMembership.resolve(player, towns, new JsonArray()).state().equals("Independent Town"), "Town without alliance");
-        check(LokaMembership.resolve(player, new JsonArray(), alliances).equals(LokaMembership.UNKNOWN), "Townless fallback");
-        check(LokaMembership.UNKNOWN.details().equals("Forge Your Story"), "Unavailable/townless display");
+        check(LokaMembership.resolve(player, towns, new JsonArray()).state().equals("Home Town"), "Town without alliance");
+        var townless = LokaMembership.resolve(player, new JsonArray(), alliances);
+        check(new LokaPresenceSession(uuid, "Player", 0, townless).details().equals("Player | Guardian") && townless.state().equals("Forge Your Story"), "Rank remains on username line without a town");
+        check(LokaMembership.UNKNOWN.state().equals("Forge Your Story"), "Unavailable display");
+        JsonObject unranked = player.deepCopy();
+        unranked.remove("rank");
+        check(LokaMembership.resolve(unranked, towns, alliances).state().equals("Home Town of The Alliance"), "Missing rank is omitted");
+        check(new LokaPresenceSession(uuid, "Player", 0, LokaMembership.resolve(unranked, towns, alliances)).details().equals("Player"), "Missing rank leaves username alone");
+        check(LokaMembership.rankLabel("oldone").equals("Old One"), "Readable public rank");
+        check(new LokaMembership("Guardian", "👑".repeat(100), "⚔️".repeat(100)).state().length() <= 128, "Combined fields fit Discord's limit");
+        check(new LokaMembership("Guardian", "x".repeat(100), "y".repeat(100)).state().contains(" of "), "Long names retain both affiliations");
         JsonArray legacy = array("[{\"id\":\"legacy\",\"name\":\"Legacy\",\"deleted\":false,\"members\":{\"key\":{\"uuid\":\"" + uuid + "\"}}}]");
         check(LokaMembership.resolve(player, legacy, new JsonArray()).town().equals("Legacy"), "Legacy UUID records");
         JsonArray owner = array("[{\"id\":\"owned\",\"name\":\"Owned\",\"deleted\":false,\"owner\":\"person\"}]");
@@ -61,7 +70,7 @@ public final class PresenceChecks {
         System.out.println("Presence affiliation/privacy checks passed.");
         if (args.length > 0) {
             var live = new LokaApi().lookup(UUID.fromString(args[0]));
-            System.out.println("Live Loka API lookup: " + live.details() + " | " + live.state());
+            System.out.println("Live Loka API lookup: " + live.rank() + " | " + live.state());
         }
     }
 }

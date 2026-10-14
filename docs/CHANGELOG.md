@@ -1,7 +1,7 @@
-# Loka 26.3 — 1.0.0 beta 1
+# Loka Fabric / Loka Fabric+ 26.3 — 1.0.0
 
 - Pack Branding uses the supplied Loka Fabric and Loka Fabric+ window/taskbar icons with their matching window titles.
-- Discord presence uses Loka's animated logo, a player-head badge, public town/alliance membership and time on Loka. Buttons link to Loka Discord and Loka Fabric; no location, world or dimension information is published.
+- Loka Minecraft Discord presence shows Username | Rank above Town of Alliance, with the standard circular Loka Fabric logo, player-head badge, elapsed time and Discord/modpack buttons; no location, world or dimension information is published.
 - Fabric client packs for Minecraft 26.3, including AntiStutter 1.0.2.
 - Loka Fabric is the base; Loka Fabric+ includes every Loka Fabric mod plus all selected additions.
 - Continuity, Iris, Bobby, Voxy/Voxy Extra, Complementary and Euphoria are Loka Fabric+-only.
@@ -28,3 +28,7 @@
 - Original JermsyBoy Vanilla Edits installed but not selected; both Complementary variants and Euphoria supplied.
 - Shaders are off by default and can be enabled through Iris.
 - Local 26.3 Voxy and Voxy Extra builds are included.
+
+- Singleplayer world selection uses the Loka menu video; other out-of-world panoramic menus use the watermarked Deep Dark artwork. In-world menu blur is retained.
+- Prepared full-release version 1.0.0+26.3 with pinned dependencies and matching shared configuration.
+- CraftPresence fallbacks use valid Loka text and detect Modrinth only; empty fallback resets and irrelevant launcher-detection errors are removed.

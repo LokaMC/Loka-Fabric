@@ -2,11 +2,11 @@
   "_schemaVersion": 7,
   "_lastMCVersionId": 777,
   "generalSettings": {
-    "detectATLauncherInstance": true,
-    "detectCurseManifest": true,
-    "detectMultiMCManifest": true,
-    "detectMCUpdaterInstance": true,
-    "detectTechnicPack": true,
+    "detectATLauncherInstance": false,
+    "detectCurseManifest": false,
+    "detectMultiMCManifest": false,
+    "detectMCUpdaterInstance": false,
+    "detectTechnicPack": false,
     "detectModrinthPack": true,
     "detectBiomeData": false,
     "detectDimensionData": false,
@@ -22,7 +22,7 @@
     "fallbackBiomeIcon": "unknown",
     "biomeData": {
       "default": {
-        "textOverride": ""
+        "textOverride": "Forge Your Story"
       }
     }
   },
@@ -30,7 +30,7 @@
     "fallbackDimensionIcon": "unknown",
     "dimensionData": {
       "default": {
-        "textOverride": ""
+        "textOverride": "Forge Your Story"
       }
     }
   },
@@ -76,23 +76,23 @@
       "fallbackGuiIcon": "unknown",
       "guiData": {
         "default": {
-          "textOverride": "In {screen.name}"
+          "textOverride": "Forge Your Story"
         }
       }
     },
     "itemMessages": {
-      "default": "Holding {item.message.holding}"
+      "default": "Forge Your Story"
     },
     "entitySettings": {
       "fallbackEntityIcon": "unknown",
       "targetData": {
         "default": {
-          "textOverride": "Targeting {entity.target.name}"
+          "textOverride": "Forge Your Story"
         }
       },
       "ridingData": {
         "default": {
-          "textOverride": "Riding {entity.riding.name}"
+          "textOverride": "Forge Your Story"
         }
       }
     },
@@ -122,9 +122,9 @@
       "detailsUrl": "",
       "gameState": "{getOrDefault(loka.state, \"Loka Fabric\")}",
       "gameStateUrl": "",
-      "appName": "Loka",
-      "largeImageKey": "https://cdn.discordapp.com/icons/138420532562493441/a_4cb7dfbb5e412bb6662d6afea9acae9c.gif?size=512",
-      "largeImageText": "Loka • Forge Your Story",
+      "appName": "Loka Minecraft",
+      "largeImageKey": "https://cdn.modrinth.com/data/Dm37kntU/fa72d382e606581683f407ae9e11bf97e0029375_96.webp",
+      "largeImageText": "Loka Fabric • Loka Minecraft",
       "largeImageUrl": "https://lokamc.com/",
       "smallImageKey": "{getOrDefault(loka.player_icon)}",
       "smallImageText": "{getOrDefault(loka.player_badge, \"Loka Fabric\")}",

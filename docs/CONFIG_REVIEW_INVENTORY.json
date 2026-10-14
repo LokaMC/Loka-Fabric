@@ -259,6 +259,7 @@
         "fancymenu/customizablemenus.txt",
         "fancymenu/customization/drippy_loading_overlay_layout.txt",
         "fancymenu/customization/join_multiplayer_screen_layout.txt",
+        "fancymenu/customization/loka_singleplayer_background.txt",
         "fancymenu/customization/loka_title_screen.txt",
         "fancymenu/legacy_checklist.txt",
         "fancymenu/options.txt"
@@ -373,8 +374,10 @@
       "id": "loka_ui",
       "name": "Loka UI",
       "version": "1.0.0",
-      "config_files": [],
-      "review": "Pack-owned Replay integration; no user state."
+      "config_files": [
+        "loka-presence.json"
+      ],
+      "review": "Pack-owned menus/backgrounds and public rank/membership presence; no saved player state."
     },
     {
       "id": "loka-waypoints",
@@ -765,7 +768,7 @@
     {
       "file": "craftpresence.json",
       "status": "JSON parsed",
-      "sha256": "cdc73a01efcd1c1428494a3c53f00a4b721e0cd4e80a007c1f621600f42f2f1b"
+      "sha256": "94071dfed183c7360ccd39c6a244b6811b42491d7523cedf0d47d2fbabc3b32a"
     },
     {
       "file": "creativecore-client.json",
@@ -775,7 +778,7 @@
     {
       "file": "drippyloadingscreen/options.txt",
       "status": "text/settings reviewed",
-      "sha256": "25df2fc93a2175d4a401d09b84c3fffa2af26f46ade78f55149da35046807764"
+      "sha256": "85be3a775a67f8fe4dd3864629a4e0121a1b9672b3433852f8d95d945eaffe23"
     },
     {
       "file": "dynamic_fps.json",
@@ -820,17 +823,22 @@
     {
       "file": "fancymenu/customizablemenus.txt",
       "status": "text/settings reviewed",
-      "sha256": "b6fd3a3af5862b36433d195872a04612fced11fb5c8fe0ec183f6d90f5919533"
+      "sha256": "98533269dffb31f88562877abd5a023d5c5d05b761245368a9287d30fa03f70e"
     },
     {
       "file": "fancymenu/customization/drippy_loading_overlay_layout.txt",
       "status": "text/settings reviewed",
-      "sha256": "c653b09f25c2381e760dc5152a092b958d7ef49e0fb7c04268eff3d52085cf4a"
+      "sha256": "cfa7297e54252137fb0a08366b607a65e67dd07159f94ddc00dc5acefb489c12"
     },
     {
       "file": "fancymenu/customization/join_multiplayer_screen_layout.txt",
       "status": "text/settings reviewed",
       "sha256": "f7325f6dfedd893176d331f7c63ea945582ffbaa84d8a48c82928824ac8621b2"
+    },
+    {
+      "file": "fancymenu/customization/loka_singleplayer_background.txt",
+      "status": "text/settings reviewed",
+      "sha256": "1c29e8bd1aa108bae6aaa08815be36cfe411b429117119d897d3a586f4d8df73"
     },
     {
       "file": "fancymenu/customization/loka_title_screen.txt",
@@ -878,6 +886,11 @@
       "sha256": "351554b5d847acfb0dcdd05a93b5b93f27035178bcbde4d5193b4dc5a5a2f11b"
     },
     {
+      "file": "iris-DESKTOP-R8Q3AOB.properties",
+      "status": "text/settings reviewed",
+      "sha256": "bc906e1e16da33e3f5fa73fbd627b26cbf3816bc9af42d5f4024128a00799735"
+    },
+    {
       "file": "iris-excluded.json",
       "status": "JSON parsed",
       "sha256": "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
@@ -885,7 +898,7 @@
     {
       "file": "iris.properties",
       "status": "text/settings reviewed",
-      "sha256": "bd53fb862fdd4e2e9d7ad93d37226ffdcb6a771adb54358f12c43782c2d4ea14"
+      "sha256": "d71bc2a9bd33319041d0302fdaa2bac0219f9c518c428487a54a9f4c5c25c74b"
     },
     {
       "file": "lambdynlights.toml",
@@ -901,6 +914,11 @@
       "file": "lithium.properties",
       "status": "text/settings reviewed",
       "sha256": "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be"
+    },
+    {
+      "file": "loka-presence.json",
+      "status": "JSON parsed",
+      "sha256": "26e7afdfa205087d90e56bd21dc62441b572988f97696cc4e346bff470829344"
     },
     {
       "file": "malilib.json",
@@ -1073,9 +1091,14 @@
       "sha256": "6debf7595628289d4d445a48032473c45499b12102515327e3946252599876eb"
     },
     {
+      "file": "vmp-DESKTOP-R8Q3AOB.properties",
+      "status": "text/settings reviewed",
+      "sha256": "989dde37e088b08c298d9435dc724f5e2d2d3676fa8ec1cad71d347c340c8586"
+    },
+    {
       "file": "vmp.properties",
       "status": "text/settings reviewed",
-      "sha256": "b1c7feca212c2973a2e9471dfb3abfb791550e61d0d22a6e42b7a5ca3ba93c5f"
+      "sha256": "2bcd2ecb4d4c248c9e8d3f0ea63b05f63e696f593feaf3aa0d96e7919b8f01bf"
     },
     {
       "file": "voxy-config.json",

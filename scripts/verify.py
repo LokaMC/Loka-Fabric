@@ -1,6 +1,6 @@
 """Check assembled contents, required dependencies, shared settings and defaults."""
 from pathlib import Path
-import hashlib, json, zipfile
+import hashlib, io, json, zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 indexes, contents = [], []
@@ -24,6 +24,19 @@ for edition in ('loka-fabric', 'loka-fabric-plus'):
         assert 'JermsyBoy' not in options['resourcePacks']
         assert not json.loads(z.read('overrides/config/minihud.json'))['Generic']['mainRenderingToggle']['enabled']
         assert "B:modpack_mode = 'true';" in z.read('overrides/config/fancymenu/options.txt').decode()
+        rpc = json.loads(z.read('overrides/config/craftpresence.json'))
+        assert rpc['displaySettings']['presenceData']['appName'] == 'Loka Minecraft'
+        for key in ('detectBiomeData', 'detectDimensionData', 'detectWorldData', 'enableJoinRequests',
+                    'detectATLauncherInstance', 'detectCurseManifest', 'detectMCUpdaterInstance'):
+            assert rpc['generalSettings'][key] is False
+        assert rpc['biomeSettings']['biomeData']['default']['textOverride'] == 'Forge Your Story'
+        assert rpc['dimensionSettings']['dimensionData']['default']['textOverride'] == 'Forge Your Story'
+        assert json.loads(z.read('overrides/config/packbranding/config.json'))['packVersion'] == '1.0.0'
+        with zipfile.ZipFile(io.BytesIO(z.read('overrides/mods/loka-ui-1.0.0.jar'))) as ui:
+            mixins = json.loads(ui.read('loka_ui.mixins.json'))['client']
+            assert {'MenuPanoramaBackgroundMixin', 'LevelLoadingScreenMixin', 'ConnectionLoadingBackgroundMixin'} <= set(mixins)
+            assert ui.read('assets/loka_ui/textures/gui/loading_deep_dark.png') == (ROOT / 'assets/loading/DeepDark.png').read_bytes()
+        assert 'background_type = video' in z.read('overrides/config/fancymenu/customization/loka_singleplayer_background.txt').decode()
         contents.append({n: z.read(n) for n in z.namelist() if n.startswith('overrides/')})
         print(f'{index["name"]}: index, override hashes, integrity and defaults passed')
 expanded = {f['path']: f for f in indexes[1]['files']}

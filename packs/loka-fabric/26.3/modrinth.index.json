@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.0-beta.1+26.3",
+  "versionId": "1.0.0+26.3",
   "name": "Loka Fabric",
   "summary": "The everyday Fabric client for Loka: smoother PvP, AntiStutter, Atlas, useful client tools, and a custom Loka theme.",
   "files": [

@@ -1,6 +1,6 @@
 {
-  "url": "https://github.com/LokaMC/Loka-Fabric/releases/download/v1.0.0-beta.1-26.3/Loka-Fabric-26.3-shared-assets.zip",
-  "sha512": "609dc6730d1752c5362fbd250093564d88a9278539dbac161dcbdb93ee60dee99107c04c013a7562400acdf1981b87d211c690d38419717fc474a8c20617048b",
+  "url": "https://github.com/LokaMC/Loka-Fabric/releases/download/v1.0.0-26.3/Loka-Fabric-26.3-shared-assets.zip",
+  "sha512": "442b9d190ec401cbf825daae86f55e79ee54a95c67874a7224fc570c50d717ee717839c888e0875c72d3618fdf40c7c853a120d432532e8dcdfb43421e08833a",
   "bytes": 129427752,
   "files": {
     "blobs/8cf053f997eee83e9313e84fc06673b9be7e0e9006c7df965c16f971c2b89fd5e7d51fa81e92766414be9631b4bcc596e8e201ce98d88e520734ac0987e60798/menubackground.mp4": {

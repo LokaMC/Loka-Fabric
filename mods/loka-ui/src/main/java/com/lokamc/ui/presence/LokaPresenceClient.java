@@ -119,14 +119,14 @@ public final class LokaPresenceClient implements ClientModInitializer {
 
     private String details() {
         var current = session;
-        return current == null ? "Forge Your Story" : current.membership().details();
+        return current == null ? "Forge Your Story" : current.details();
     }
     private String state() {
         var current = session;
         return current == null ? "" : current.membership().state();
     }
     private String icon() { var current = session; return current == null ? "" : current.playerIcon(); }
-    private String badge() { var current = session; return current == null ? "" : current.player() + " • Loka"; }
+    private String badge() { var current = session; return current == null ? "" : current.player() + " • Loka Minecraft"; }
     private String started() { var current = session; return Long.toString(current == null ? launched : current.started()); }
 
     private void syncBridge() {

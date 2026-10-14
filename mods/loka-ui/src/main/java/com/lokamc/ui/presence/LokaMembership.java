@@ -6,10 +6,13 @@ import com.google.gson.JsonObject;
 import java.io.IOException;
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.Locale;
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
 /** A strict allowlist of affiliation fields; never reads location or world data. */
-public record LokaMembership(String town, String alliance) {
-    public static final LokaMembership UNKNOWN = new LokaMembership("", "");
+public record LokaMembership(String rank, String town, String alliance) {
+    public static final LokaMembership UNKNOWN = new LokaMembership("", "", "");
 
     public static LokaMembership resolve(JsonObject player, JsonArray towns,
                                           JsonArray alliances) throws IOException {
@@ -19,6 +22,7 @@ public record LokaMembership(String town, String alliance) {
             if (!id.isEmpty()) identities.add(id);
         }
         if (identities.isEmpty()) throw new IOException("Missing player identity");
+        String rank = rankLabel(text(player, "rank"));
         String townId = "", townName = "";
         for (JsonElement entry : towns) {
             JsonObject town = entry.getAsJsonObject();
@@ -45,7 +49,7 @@ public record LokaMembership(String town, String alliance) {
             townId = id;
             townName = name;
         }
-        if (townId.isEmpty()) return UNKNOWN;
+        if (townId.isEmpty()) return new LokaMembership(rank, "", "");
         String allianceName = "";
         for (JsonElement entry : alliances) {
             JsonObject alliance = entry.getAsJsonObject();
@@ -63,13 +67,32 @@ public record LokaMembership(String town, String alliance) {
                 allianceName = name;
             }
         }
-        return new LokaMembership(townName, allianceName);
+        return new LokaMembership(rank, townName, allianceName);
     }
 
-    public String details() { return town.isEmpty() ? "Forge Your Story" : "Town • " + town; }
     public String state() {
-        return town.isEmpty() ? "Playing on Loka" : alliance.isEmpty()
-            ? "Independent Town" : "Alliance • " + alliance;
+        if (town.isEmpty()) return "Forge Your Story";
+        if (alliance.isEmpty()) return shorten(town, 128);
+        int names = 128 - " of ".length();
+        int townLimit = Math.min(town.length(), names / 2);
+        int allianceLimit = Math.min(alliance.length(), names - townLimit);
+        townLimit = Math.min(town.length(), names - allianceLimit);
+        return shorten(town, townLimit) + " of " + shorten(alliance, allianceLimit);
+    }
+
+    static String rankLabel(String raw) {
+        String rank = clean(raw).replace('_', ' ').replace('-', ' ').toLowerCase(Locale.ROOT);
+        if (rank.equals("oldone")) rank = "old one";
+        return Arrays.stream(rank.split("\\s+")).filter(word -> !word.isEmpty())
+            .map(word -> word.substring(0, 1).toUpperCase(Locale.ROOT) + word.substring(1))
+            .collect(Collectors.joining(" "));
+    }
+
+    static String shorten(String value, int limit) {
+        if (value.length() <= limit) return value;
+        int end = Math.max(0, limit - 1);
+        if (end > 0 && Character.isHighSurrogate(value.charAt(end - 1))) end--;
+        return value.substring(0, end) + "…";
     }
 
     static String text(JsonObject object, String key) {

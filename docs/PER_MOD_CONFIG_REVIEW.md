@@ -36,7 +36,7 @@ Shared shipped defaults: 1280×720, Auto GUI scale, MiniHUD rendering off, shade
 | Fabric API | 0.162.0+26.3 | Upstream defaults; no generated user config |
 | Fabric Language Kotlin | 1.14.2+kotlin.2.4.21 | Upstream defaults; no generated user config |
 | Falling Leaves | 2.0.8 | `fallingleaves2.json` |
-| FancyMenu | 3.9.14 | `fancymenu/custom_gui_screens.txt`, `fancymenu/customizablemenus.txt`, `fancymenu/customization/drippy_loading_overlay_layout.txt`, `fancymenu/customization/join_multiplayer_screen_layout.txt`, `fancymenu/customization/loka_title_screen.txt`, `fancymenu/legacy_checklist.txt`, `fancymenu/options.txt` |
+| FancyMenu | 3.9.14 | `fancymenu/custom_gui_screens.txt`, `fancymenu/customizablemenus.txt`, `fancymenu/customization/drippy_loading_overlay_layout.txt`, `fancymenu/customization/join_multiplayer_screen_layout.txt`, `fancymenu/customization/loka_singleplayer_background.txt`, `fancymenu/customization/loka_title_screen.txt`, `fancymenu/legacy_checklist.txt`, `fancymenu/options.txt` |
 | FerriteCore | 9.0.0 | `ferritecore.mixin.properties` |
 | Flashback | 0.43.6 | `flashback/flashback.json` |
 | Flashback Extras | 1.3.0 | `flashback-extras.json` |
@@ -49,7 +49,7 @@ Shared shipped defaults: 1280×720, Auto GUI scale, MiniHUD rendering off, shade
 | LambDynamicLights | 4.13.0+26.3 | `lambdynlights.toml` |
 | Litematica | 0.29.1 | `litematica.json` |
 | Lithium | 0.26.2+mc26.3 | `lithium.properties` |
-| Loka UI | 1.0.0 | Upstream defaults; no generated user config |
+| Loka UI | 1.0.0 | `loka-presence.json` |
 | Loka Atlas | 1.0.0 | Upstream defaults; no generated user config |
 | MaLiLib | 0.30.2 | `malilib.json` |
 | Melody | 1.0.17 | Upstream defaults; no generated user config |
@@ -91,7 +91,7 @@ Shared shipped defaults: 1280×720, Auto GUI scale, MiniHUD rendering off, shade
 
 ## Parsing and keybind evidence
 
-82 generated configuration files inspected; 56 JSON/TOML files parsed. Format exceptions: 0.
+86 generated configuration files inspected; 57 JSON/TOML files parsed. Format exceptions: 0.
 
 The raw Minecraft overlap list includes F3 debug chords and contextual controls. Pick Block/Spectator Hotbar are intentional context overlaps. MaLiLib uses its own chord system and was checked separately in game.
 

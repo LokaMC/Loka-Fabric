@@ -18,8 +18,8 @@ Shared configurations are byte-identical. Loka Fabric+ additionally contains the
 | Litematica / MaLiLib | All 15 M-related Litematica chords move to F8 equivalents; MaLiLib A+C becomes F9. Atlas keeps M. |
 | Resource packs | Original Modrinth JermsyBoy pack installed but unselected. Loka Interface supplies themed multiplayer utility sprites and is selected. Polytone is removed from Loka Fabric+. Server Resource Pack Checker keeps and lists cached server packs. |
 | Shaders | Loka Fabric+ includes Iris, both Complementary variants and Euphoria; shaders start off with no selected pack. Loka Fabric does not ship shader mods or shader packs. |
-| Bobby / Voxy | Charged-only: Bobby clears unused regions after 30 days; Voxy uses four service threads. Their settings remain identical wherever shared. |
-| Discord RPC | Official Loka icon; instance name supplies Loka Fabric/Charged identity, named Loka server state; external server-icon endpoints disabled. Discord unavailable for visible-card verification. |
+| Bobby / Voxy | Loka Fabric+ only: Bobby clears unused regions after 30 days; Voxy uses four service threads. Their settings remain identical wherever shared. |
+| Discord RPC | Loka Minecraft activity title, standard circular Loka Fabric icon, username/public rank, public membership town/alliance, player-head badge, elapsed time and Discord/modpack buttons. No location, world, dimension or join data. Valid Loka fallback text prevents config resets; only Modrinth pack detection is enabled. The installed CraftPresence payload checks passed. Discord unavailable for visible-card verification. |
 | WaterMedia | Local file server disabled. Menu video uses local bundled media. |
 
 ## Keybind priority

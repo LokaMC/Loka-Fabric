@@ -1,0 +1,126 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = select_world_screen
+  render_custom_elements_behind_vanilla = true
+  is_enabled = true
+  layout_index = 0
+}
+
+menu_background {
+  instance_identifier = world_list_65b7fd05-e80e-49ba-b6f7-51566bf3acde-1787267798049
+  background_type = color_fancymenu
+  show_background = false
+  color = #FFC800FF
+}
+
+menu_background {
+  instance_identifier = world_list_916c838b-3189-4b93-b68f-feabfddb1694-1787267798049
+  background_type = panorama
+  show_background = false
+}
+
+menu_background {
+  instance_identifier = world_list_f6cc2da1-5846-4c83-9a15-43ac823a2435-1787267798049
+  background_type = image
+  show_background = true
+  source = [source:local]/config/fancymenu/assets/loading-deep-dark.png
+  slide = false
+  repeat_texture = false
+  parallax = false
+  parallax_intensity_x = 0.02
+  parallax_intensity_y = 0.02
+  invert_parallax = false
+  restart_animated_on_menu_load = false
+}
+
+menu_background {
+  instance_identifier = world_list_fe4952cb-5670-41a4-a74b-2909de39e796-1787267798049
+  background_type = slideshow
+  show_background = false
+}
+
+menu_background {
+  instance_identifier = world_list_3c142682-b736-41d5-bf4e-2e91617f33a9-1787267798049
+  background_type = video
+  show_background = true
+  source = [source:local]/config/fancymenu/assets/menubackground.mp4
+  loop = true
+  volume = 0.0
+  sound_source = master
+  parallax = false
+  parallax_intensity_x = 0.02
+  parallax_intensity_y = 0.02
+  invert_parallax = false
+  play_in_editor = true
+}
+
+menu_background {
+  instance_identifier = world_list_ff6c89c3-376e-4b77-8be3-e4d51177edb7-1787267798049
+  background_type = video_rinku
+  show_background = false
+  loop = false
+  volume = 1.0
+  sound_source = master
+  parallax = false
+  parallax_intensity_x = 0.02
+  parallax_intensity_y = 0.02
+  invert_parallax = false
+}
+
+menu_background {
+  instance_identifier = world_list_48c43ccd-8b6c-4cfa-8cf2-1b539eb5ad91-1787267798049
+  background_type = browser
+  show_background = false
+  url = https://lokamc.com/
+  consume_mouse_clicks = true
+  consume_mouse_scrolls = true
+  consume_keyboard_presses = true
+  process_mouse_clicks = true
+  process_mouse_scrolls = true
+  process_keyboard_presses = true
+  hide_video_controls = false
+  loop_videos = false
+  mute_media = false
+  media_volume = 1.0
+}
+
+menu_background {
+  instance_identifier = world_list_badfc6c1-a800-4e15-8e5f-e900b3274578-1787267798049
+  background_type = glsl
+  show_background = false
+  inline_shader_source = 
+  buffer_a_inline_source = 
+  buffer_b_inline_source = 
+  buffer_c_inline_source = 
+  buffer_d_inline_source = 
+  image_ichannel0_input = none
+  image_ichannel1_input = none
+  image_ichannel2_input = none
+  image_ichannel3_input = none
+  buffer_a_ichannel0_input = none
+  buffer_a_ichannel1_input = none
+  buffer_a_ichannel2_input = none
+  buffer_a_ichannel3_input = none
+  buffer_b_ichannel0_input = none
+  buffer_b_ichannel1_input = none
+  buffer_b_ichannel2_input = none
+  buffer_b_ichannel3_input = none
+  buffer_c_ichannel0_input = none
+  buffer_c_ichannel1_input = none
+  buffer_c_ichannel2_input = none
+  buffer_c_ichannel3_input = none
+  buffer_d_ichannel0_input = none
+  buffer_d_ichannel1_input = none
+  buffer_d_ichannel2_input = none
+  buffer_d_ichannel3_input = none
+  compile_mode = auto
+  force_shadertoy_compatibility = true
+  freeze_time = false
+  time_scale = 1.0
+  enable_blending = true
+  use_input = true
+  mouse_position_requires_hold = false
+  opacity_multiplier = 1.0
+  show_compile_errors = true
+}

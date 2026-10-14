@@ -7,7 +7,7 @@ The official Fabric client packs for Loka, for Minecraft **26.3**.
 
 ## Install
 
-Download the appropriate `.mrpack` from [GitHub Releases](https://github.com/LokaMC/Loka-Fabric/releases/tag/v1.0.0-beta.1-26.3) and import it into Modrinth. The archives are larger than GitHub's regular file limit, so downloads live in Releases.
+Download the appropriate `.mrpack` from [GitHub Releases](https://github.com/LokaMC/Loka-Fabric/releases/tag/v1.0.0-26.3) and import it into Modrinth. The archives are larger than GitHub's regular file limit, so downloads live in Releases.
 
 ## Repository
 
@@ -39,6 +39,6 @@ Requires Java 25. Run `gradlew.bat build` inside `mods/loka-ui` on Windows, or `
 
 ## Defaults
 
-1280×720 window, automatic GUI scale, MiniHUD off, shaders off, JermsyBoy installed but unselected, curated keybinds, and one server: **Loka — play.lokamc.com**. Shared controls and settings match across editions. FancyMenu editing controls are hidden by modpack mode. Loading terrain uses the original watermarked Deep Dark image; the title and resource-loading screens use the Loka theme.
+1280Ã—720 window, automatic GUI scale, MiniHUD off, shaders off, JermsyBoy installed but unselected, curated keybinds, and one server: **Loka â€” play.lokamc.com**. Shared controls and settings match across editions. FancyMenu editing controls are hidden by modpack mode. Loading terrain uses the original watermarked Deep Dark image; the title and resource-loading screens use the Loka theme.
 
-[Loka website](https://lokamc.com/) · [Loka Discord](https://discord.gg/loka)
+[Loka website](https://lokamc.com/) Â· [Loka Discord](https://discord.gg/loka)

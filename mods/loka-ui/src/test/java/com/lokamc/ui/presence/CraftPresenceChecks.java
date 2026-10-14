@@ -28,19 +28,19 @@ public final class CraftPresenceChecks {
         JsonObject generic = (JsonObject) rich.getClass().getMethod("toJson").invoke(rich);
         check(generic.get("details").getAsString().equals("Forge Your Story"), "Safe fallback when bridge is absent");
         check(generic.get("state").getAsString().equals("Loka Fabric"), "Pack fallback");
-        for (var entry : new String[][]{{"loka.details","Town • {world.name}"},
-                {"loka.state","Alliance • Test Alliance"},{"loka.player_icon","https://mc-heads.net/avatar/test"},
-                {"loka.player_badge","Player • Loka"},{"loka.started","1800000000000"}}) {
+        for (var entry : new String[][]{{"loka.details","Player | Guardian"},
+                {"loka.state","{world.name} of Test Alliance"},{"loka.player_icon","https://mc-heads.net/avatar/test"},
+                {"loka.player_badge","Player • Loka Minecraft"},{"loka.started","1800000000000"}}) {
             sync.invoke(client, entry[0], (Supplier<Object>) () -> entry[1], true);
         }
         pair = compile.invoke(client, data, false);
         rich = pair.getClass().getMethod("getSecond").invoke(pair);
         JsonObject published = (JsonObject) rich.getClass().getMethod("toJson").invoke(rich);
-        check(published.get("details").getAsString().equals("Town • {world.name}"), "API names stay literal, never evaluate placeholders");
-        check(published.get("state").getAsString().equals("Alliance • Test Alliance"), "Membership expression integration");
-        check(published.get("name").getAsString().equals("Loka"), "Loka application title");
+        check(published.get("details").getAsString().equals("Player | Guardian"), "Username and rank on first line");
+        check(published.get("state").getAsString().equals("{world.name} of Test Alliance"), "Literal affiliation on second line; names never evaluate placeholders");
+        check(published.get("name").getAsString().equals("Loka Minecraft"), "Loka Minecraft application title");
         var assets = published.getAsJsonObject("assets");
-        check(assets.get("large_image").getAsString().contains(".gif?size=512"), "Animated Loka image is an image, not a link");
+        check(assets.get("large_image").getAsString().equals(config.getAsJsonObject("displaySettings").getAsJsonObject("presenceData").get("largeImageKey").getAsString()), "Configured circular standard Loka Fabric logo");
         check(assets.get("large_url").getAsString().equals("https://lokamc.com/"), "Image click-through");
         check(assets.get("small_image").getAsString().equals("https://mc-heads.net/avatar/test"), "Player badge");
         check(published.getAsJsonObject("timestamps").get("start").getAsLong() == 1800000000000L, "Session timestamp");

@@ -15,4 +15,11 @@ public record LokaPresenceSession(UUID uuid, String player, long started, LokaMe
     }
 
     public String playerIcon() { return "https://mc-heads.net/avatar/" + uuid; }
+
+    public String details() {
+        String username = LokaMembership.shorten(LokaMembership.clean(player), 100);
+        String rank = LokaMembership.shorten(membership.rank(), 24);
+        if (username.isEmpty()) return rank.isEmpty() ? "Forge Your Story" : rank;
+        return rank.isEmpty() ? username : username + " | " + rank;
+    }
 }
