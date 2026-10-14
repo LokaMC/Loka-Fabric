@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "loka_ui",
+  "version": "1.0.0",
+  "name": "Loka UI",
+  "description": "Shared Loka Fabric menus and Discord presence with public town/alliance affiliation, Loka artwork and session time. Never publishes player location.",
+  "authors": ["LokaMC"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {"client": ["com.lokamc.ui.LokaUiClient", "com.lokamc.ui.presence.LokaPresenceClient"]},
+  "mixins": ["loka_ui.mixins.json"],
+  "depends": {
+    "minecraft": "26.3",
+    "fabricloader": ">=0.19.5",
+    "fabric-screen-api-v1": "*",
+    "fabric-lifecycle-events-v1": "*",
+    "fabric-networking-api-v1": "*"
+  }
+}

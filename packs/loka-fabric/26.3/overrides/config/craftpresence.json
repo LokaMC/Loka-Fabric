@@ -1,0 +1,150 @@
+{
+  "_schemaVersion": 7,
+  "_lastMCVersionId": 777,
+  "generalSettings": {
+    "detectATLauncherInstance": true,
+    "detectCurseManifest": true,
+    "detectMultiMCManifest": true,
+    "detectMCUpdaterInstance": true,
+    "detectTechnicPack": true,
+    "detectModrinthPack": true,
+    "detectBiomeData": false,
+    "detectDimensionData": false,
+    "detectWorldData": false,
+    "clientId": "450485984333660181",
+    "defaultIcon": "grass",
+    "enableJoinRequests": false,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": false
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "unknown",
+    "biomeData": {
+      "default": {
+        "textOverride": ""
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "unknown",
+    "dimensionData": {
+      "default": {
+        "textOverride": ""
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "default",
+    "fallbackServerName": "Minecraft Server",
+    "fallbackServerMotd": "A Minecraft Server",
+    "serverData": {
+      "default": {
+        "textOverride": "Forge Your Story"
+      }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "Forge Your Story"
+    },
+    "loadingData": {
+      "textOverride": "Forge Your Story"
+    },
+    "lanData": {
+      "textOverride": "Forge Your Story"
+    },
+    "singleplayerData": {
+      "textOverride": "Forge Your Story"
+    },
+    "realmData": {
+      "textOverride": "Forge Your Story"
+    }
+  },
+  "advancedSettings": {
+    "enablePerGui": false,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "formatWords": false,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 2,
+    "allowPlaceholderPreviews": false,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "default": {
+          "textOverride": "In {screen.name}"
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "Holding {item.message.holding}"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "Targeting {entity.target.name}"
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "Riding {entity.riding.name}"
+        }
+      }
+    },
+    "allowEndpointIcons": false,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false
+  },
+  "accessibilitySettings": {
+    "languageId": "en_us",
+    "stripTranslationColors": false,
+    "stripTranslationFormatting": false,
+    "stripExtraGuiElements": false,
+    "configKeyCode": 96
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": false,
+      "isInstance": false,
+      "activityType": 0,
+      "statusDisplayType": 0,
+      "partyPrivacy": 1,
+      "details": "{getOrDefault(loka.details, \"Forge Your Story\")}",
+      "detailsUrl": "",
+      "gameState": "{getOrDefault(loka.state, \"Loka Fabric\")}",
+      "gameStateUrl": "",
+      "appName": "Loka",
+      "largeImageKey": "https://cdn.discordapp.com/icons/138420532562493441/a_4cb7dfbb5e412bb6662d6afea9acae9c.gif?size=512",
+      "largeImageText": "Loka • Forge Your Story",
+      "largeImageUrl": "https://lokamc.com/",
+      "smallImageKey": "{getOrDefault(loka.player_icon)}",
+      "smallImageText": "{getOrDefault(loka.player_badge, \"Loka Fabric\")}",
+      "smallImageUrl": "",
+      "startTimestamp": "{getOrDefault(loka.started, data.general.time)}",
+      "endTimestamp": "",
+      "buttons": {
+        "loka_discord": {
+          "label": "Loka Discord",
+          "url": "https://discord.gg/loka"
+        },
+        "loka_fabric": {
+          "label": "Get Loka Fabric",
+          "url": "https://modrinth.com/modpack/loka-fabric"
+        }
+      }
+    },
+    "dynamicIcons": {},
+    "dynamicVariables": {
+      "pack": "Loka Fabric"
+    }
+  }
+}

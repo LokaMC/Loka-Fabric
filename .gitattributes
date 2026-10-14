@@ -1,0 +1,2 @@
+# Keep shipped configurations/assets byte-for-byte identical to the tested packs.
+* -text

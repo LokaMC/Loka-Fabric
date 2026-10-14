@@ -1,0 +1,9 @@
+out/
+.cache/
+.gradle/
+**/build/
+__pycache__/
+*.mrpack
+*.tmp
+.env
+.env.*

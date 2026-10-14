@@ -1,0 +1,30 @@
+# Loka 26.3 — 1.0.0 beta 1
+
+- Pack Branding uses the supplied Loka Fabric and Loka Fabric+ window/taskbar icons with their matching window titles.
+- Discord presence uses Loka's animated logo, a player-head badge, public town/alliance membership and time on Loka. Buttons link to Loka Discord and Loka Fabric; no location, world or dimension information is published.
+- Fabric client packs for Minecraft 26.3, including AntiStutter 1.0.2.
+- Loka Fabric is the base; Loka Fabric+ includes every Loka Fabric mod plus all selected additions.
+- Continuity, Iris, Bobby, Voxy/Voxy Extra, Complementary and Euphoria are Loka Fabric+-only.
+- Loka title-screen video, gold and purple-slate buttons, and Deep Dark loading artwork.
+- Correctly proportioned Loka logos, right-aligned footer, and compact utility buttons.
+- Flashback Replay stays in Loka Fabric+'s lower-right utility row from the first title screen.
+- Replay tooltip reads "Flashback Replays"; the extra Mods tooltip is removed.
+- Pause-menu icons sit below Options/World Options and above Disconnect. Loka Fabric+ uses two independently justified groups matching each options column; Loka Fabric uses one compact centered row of five.
+- Flashback recording controls join that row in Loka Fabric+.
+- Pause menus use the proportional gold Loka wordmark in place of the Game Menu heading.
+- Loading terrain uses the original watermarked Deep Dark image, without a large logo.
+- World Downloader controls join the pause row before Flashback, with Mods at the far right.
+- Title-screen LokaMC watermark has matching five-pixel left/bottom GUI margins.
+- FancyMenu editing controls are hidden in modpack mode.
+- First launch defaults to a 1280×720 window and automatic GUI scale.
+- Shared curated keybinds; Atlas uses M, Litematica uses F8 chords, and MaLiLib uses F9.
+- MiniHUD starts disabled; H toggles it and H+C opens its settings.
+- Polytone removed from Loka Fabric+.
+- Do a Barrel Roll removed from Loka Fabric+.
+- Spawn Animations and Not Enough Animations removed from Loka Fabric+.
+- Subtle Effects removed from Loka Fabric+.
+- Multiplayer utility sprites use the Loka interface theme.
+- Loka is the only supplied server: play.lokamc.com.
+- Original JermsyBoy Vanilla Edits installed but not selected; both Complementary variants and Euphoria supplied.
+- Shaders are off by default and can be enabled through Iris.
+- Local 26.3 Voxy and Voxy Extra builds are included.

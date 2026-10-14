@@ -1,0 +1,19 @@
+{
+  "slug": "loka-fabric-plus",
+  "title": "Loka Fabric+",
+  "description": "Everything in Loka Fabric, plus shaders, distant terrain, connected textures, replay and building tools, richer sound, atmosphere, and animation.",
+  "body": "# Loka Fabric+\n\n**The official expanded Fabric modpack for Loka.**\n\nLoka Fabric+ builds on [Loka Fabric](https://modrinth.com/project/loka-fabric), adding more building tools, visual enhancements, animations, and immersive audio while retaining the same performance optimizations and essential client-side utilities.\n\nLoka Fabric+ includes everything in Loka Fabric, along with additional mods for players looking for a more complete Minecraft experience.\n\n## Additional Mods\n\n**Building:** Axiom, WorldEdit, WorldEdit CUI, dbtools\n\n**Replays & Cameras:** Flashback, Flashback Extras, Camera Utils\n\n**Textures, Shaders & Terrain:** Continuity, Iris, Bobby, Voxy, Voxy Extra, Complementary Reimagined, Complementary Unbound, Euphoria Patches\n\n**Visuals:** Better Clouds, LambDynamicLights, Falling Leaves\n\n**Animations:** 3D Skin Layers, WaveyCapes\n\n**Audio:** AmbientSounds, Presence Footsteps, Sound Physics Remastered\n\n**Utility:** NBT Display, Simple World Downloader\n\nLoka Fabric+ also includes Loka Fabric's custom Loka main menu, loading screen, resource pack, and preconfigured server entry.\n\nThe shared settings match Loka Fabric: JermsyBoy's pack is installed but unselected, shaders and MiniHUD start off, and GUI scale uses Auto.\n\nAll included mods must be used in accordance with our [client-side mod rules](https://forums.lokamc.com/threads/approved-legal-client-side-mods.4845/).\n\n## Links\n\n**Server:** play.lokamc.com\n\n**Website:** [lokamc.com](https://lokamc.com)\n\nAll included mods, resource packs, and shaders belong to their respective creators and remain subject to their original licenses.",
+  "project_type": "modpack",
+  "categories": [
+    "optimization",
+    "multiplayer",
+    "combat"
+  ],
+  "additional_categories": [
+    "adventure"
+  ],
+  "client_side": "required",
+  "server_side": "unsupported",
+  "wiki_url": "https://lokamc.com/",
+  "status": "draft"
+}

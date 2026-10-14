@@ -1,0 +1,10 @@
+#!/bin/sh
+# A local guard against accidental use of the machine's personal Git identity.
+expected='FoxyBearGames <FoxyBearGames@users.noreply.github.com>'
+while read local_ref local_oid remote_ref remote_oid; do
+  case "$local_oid" in 0000000000000000000000000000000000000000) continue ;; esac
+  git log --format='%an <%ae>%n%cn <%ce>' "$local_oid" |
+  while IFS= read -r identity; do
+    test "$identity" = "$expected" || exit 1
+  done || { echo 'Push stopped: commit identity does not match FoxyBearGames.' >&2; exit 1; }
+done

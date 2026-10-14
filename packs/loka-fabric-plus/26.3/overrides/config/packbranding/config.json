@@ -1,0 +1,24 @@
+{
+  "_comment": "Only the window title and supplied Loka window/taskbar icon are enabled.",
+  "packVersion": "1.0.0-beta.1",
+  "windowTitle": {
+    "enabled": true,
+    "title": "Loka Fabric+ | Minecraft 26.3"
+  },
+  "icon": {
+    "enabled": true
+  },
+  "hideRealms": false,
+  "mainMenu": {
+    "enabled": false
+  },
+  "pauseMenu": {
+    "enabled": false
+  },
+  "menuButtons": {
+    "enabled": false,
+    "title": [],
+    "pause": [],
+    "hidePauseIcons": []
+  }
+}

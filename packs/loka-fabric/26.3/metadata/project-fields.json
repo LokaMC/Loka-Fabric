@@ -1,0 +1,17 @@
+{
+  "slug": "loka-fabric",
+  "title": "Loka Fabric",
+  "description": "The everyday Fabric client for Loka: smoother PvP, AntiStutter, Atlas, useful client tools, and a custom Loka theme.",
+  "body": "# Loka Fabric\n\n**The official Fabric modpack for Loka.**\n\nLoka Fabric is a lightweight modpack built for playing on Loka. It combines performance optimizations, useful client-side mods, and a customized Loka experience in one ready-to-play package.\n\nThis is the official starting point for playing on Loka, with useful tools and ready-to-use settings.\n\n## Included Mods\n\n**Performance:** Sodium, Lithium, FerriteCore, ImmediatelyFast, EntityCulling, AntiStutter\n\n**Utility:** Loka Atlas, Litematica, MiniHUD, Zoomify, AppleSkin, Shulker Box Tooltip, Gamma Utils, Uku's Armor HUD\n\n**Resource pack:** JermsyBoy's Vanilla Edits\n\nLoka Fabric also includes a custom Loka main menu, loading screen, and preconfigured server entry.\n\nJermsyBoy's Vanilla Edits is installed for you to enable if you want it. MiniHUD starts off by default. Shaders, connected textures and distant-terrain rendering are included in Loka Fabric+.\n\n## Links\n\n**Server:** play.lokamc.com\n\n**Website:** [lokamc.com](https://lokamc.com)\n\nAll included mods, resource packs, and shaders belong to their respective creators and remain subject to their original licenses.",
+  "project_type": "modpack",
+  "categories": [
+    "optimization",
+    "multiplayer",
+    "combat"
+  ],
+  "additional_categories": [],
+  "client_side": "required",
+  "server_side": "unsupported",
+  "wiki_url": "https://lokamc.com/",
+  "status": "draft"
+}

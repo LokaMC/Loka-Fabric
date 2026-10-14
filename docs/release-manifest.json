@@ -1,0 +1,22 @@
+{
+  "minecraft": "26.3",
+  "version": "1.0.0-beta.1+26.3",
+  "packs": [
+    {
+      "name": "Loka Fabric",
+      "filename": "Loka-Fabric-26.3-1.0.0-beta.1.mrpack",
+      "bytes": 126654481,
+      "sha512": "601fa4c0b26e31009c6c7b3387a9bf0e0c18f2710c36164fe0c9c5fc43e5b6c78786070f4ae9db5233ae2c26502bfedd82e49ee936d3aa411cc8c2c379c9bd17",
+      "indexed_files": 54,
+      "mod_jars": 55
+    },
+    {
+      "name": "Loka Fabric+",
+      "filename": "Loka-Fabric-Plus-26.3-1.0.0-beta.1.mrpack",
+      "bytes": 139277208,
+      "sha512": "2702b05ed207f08fdd04c88748fbdcbc2663b4322733c168eaf2369e6cabf1c23febcc507c0eb4f7794463a8d291482b7d3b6538d1f5dd6d65708c8bbf105f90",
+      "indexed_files": 81,
+      "mod_jars": 82
+    }
+  ]
+}
