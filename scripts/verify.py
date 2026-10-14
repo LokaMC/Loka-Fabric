@@ -31,7 +31,8 @@ for edition in ('loka-fabric', 'loka-fabric-plus'):
             assert rpc['generalSettings'][key] is False
         assert rpc['biomeSettings']['biomeData']['default']['textOverride'] == 'Forge Your Story'
         assert rpc['dimensionSettings']['dimensionData']['default']['textOverride'] == 'Forge Your Story'
-        assert json.loads(z.read('overrides/config/packbranding/config.json'))['packVersion'] == '1.0.0'
+        assert index['versionId'] == metadata['version_number']
+        assert json.loads(z.read('overrides/config/packbranding/config.json'))['packVersion'] == metadata['version_number'].split('+', 1)[0]
         with zipfile.ZipFile(io.BytesIO(z.read('overrides/mods/loka-ui-1.0.0.jar'))) as ui:
             mixins = json.loads(ui.read('loka_ui.mixins.json'))['client']
             assert {'MenuPanoramaBackgroundMixin', 'LevelLoadingScreenMixin', 'ConnectionLoadingBackgroundMixin'} <= set(mixins)

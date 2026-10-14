@@ -1,6 +1,6 @@
 # Validation and scope
 
-Minecraft 26.3, release 1.0.0+26.3: Loka Fabric has 55 top-level mod jars; Loka Fabric+ has 82 and contains every base mod. Indexed client files are required in both editions. Release archive integrity and SHA-512 hashes are checked, as are shared-file equality and launch defaults.
+Minecraft 26.3, release 2.0.0: Loka Fabric has 55 top-level mod jars; Loka Fabric+ has 82 and contains every base mod. Indexed client files are required in both editions. Release archive integrity and SHA-512 hashes are checked, as are shared-file equality and launch defaults.
 
 Earlier in-game checks covered startup, title/pause layouts at normal and wide sizes, terrain loading in a local world and on Loka, multiplayer buttons, Voxy/Voxy Extra and shader rendering. In the final 2026-10-14 pass, both current profiles reached the title screen; the singleplayer video, Deep Dark settings background, title footer spacing and Flashback tooltip were checked. The repaired CraftPresence defaults survived a subsequent startup without fallback resets or irrelevant launcher-detection errors.
 

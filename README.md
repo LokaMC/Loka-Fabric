@@ -7,7 +7,7 @@ The official Fabric client packs for Loka, for Minecraft **26.3**.
 
 ## Install
 
-Download the appropriate `.mrpack` from [GitHub Releases](https://github.com/LokaMC/Loka-Fabric/releases/tag/v1.0.0-26.3) and import it into Modrinth. The archives are larger than GitHub's regular file limit, so downloads live in Releases.
+Download the appropriate `.mrpack` from [GitHub Releases](https://github.com/LokaMC/Loka-Fabric/releases/tag/v2.0.0-26.3) and import it into Modrinth. The archives are larger than GitHub's regular file limit, so downloads live in Releases.
 
 ## Repository
 

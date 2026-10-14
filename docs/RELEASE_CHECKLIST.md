@@ -1,6 +1,6 @@
 # Full release preparation — 2026-10-14
 
-**Version:** `1.0.0+26.3` · **Minecraft:** `26.3` · **Modrinth version type:** `release`
+**Version:** `2.0.0` · **Minecraft:** `26.3` · **Modrinth version type:** `release`
 
 ## Prepared
 
@@ -24,7 +24,7 @@
 
 Use each edition's `packs/<edition>/26.3/metadata/version-fields.json` and matching `.mrpack` from GitHub Releases. Project descriptions and fields are alongside the version fields. Both project templates link to this repository and its issue tracker.
 
-- [ ] Upload the two `1.0.0+26.3` versions to the corresponding Modrinth projects.
+- [ ] Upload the two `2.0.0` versions to the corresponding Modrinth projects.
 - [ ] Complete any disclosures shown by Modrinth and submit/publish there.
 
 This preparation does not claim a Modrinth upload. Existing beta GitHub assets are retained under their original tag.

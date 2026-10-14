@@ -1,6 +1,6 @@
 {
   "_comment": "Only the window title and supplied Loka window/taskbar icon are enabled.",
-  "packVersion": "1.0.0",
+  "packVersion": "2.0.0",
   "windowTitle": {
     "enabled": true,
     "title": "Loka Fabric | Minecraft 26.3"

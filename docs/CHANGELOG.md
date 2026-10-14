@@ -1,4 +1,4 @@
-# Loka Fabric / Loka Fabric+ 26.3 — 1.0.0
+# Loka Fabric / Loka Fabric+ 26.3 — 2.0.0
 
 - Pack Branding uses the supplied Loka Fabric and Loka Fabric+ window/taskbar icons with their matching window titles.
 - Loka Minecraft Discord presence shows Username | Rank above Town of Alliance, with the standard circular Loka Fabric logo, player-head badge, elapsed time and Discord/modpack buttons; no location, world or dimension information is published.
@@ -30,5 +30,5 @@
 - Local 26.3 Voxy and Voxy Extra builds are included.
 
 - Singleplayer world selection uses the Loka menu video; other out-of-world panoramic menus use the watermarked Deep Dark artwork. In-world menu blur is retained.
-- Prepared full-release version 1.0.0+26.3 with pinned dependencies and matching shared configuration.
+- Prepared full-release version 2.0.0 with pinned dependencies and matching shared configuration.
 - CraftPresence fallbacks use valid Loka text and detect Modrinth only; empty fallback resets and irrelevant launcher-detection errors are removed.

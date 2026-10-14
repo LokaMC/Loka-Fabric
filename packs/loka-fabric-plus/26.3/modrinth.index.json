@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "1.0.0+26.3",
+  "versionId": "2.0.0",
   "name": "Loka Fabric+",
   "summary": "Everything in Loka Fabric, plus shaders, distant terrain, connected textures, replay and building tools, richer sound, atmosphere, and animation.",
   "files": [
