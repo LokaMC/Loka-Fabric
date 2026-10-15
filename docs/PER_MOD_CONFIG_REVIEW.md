@@ -59,7 +59,6 @@ Shared shipped defaults: 1280×720, Auto GUI scale, MiniHUD rendering off, shade
 | More Culling | 1.9.0 | `moreculling.toml` |
 | NBT Display | 1.0.2+26.3 | Upstream defaults; no generated user config |
 | NebsConfigLib | 1.0.9+26.3 | Upstream defaults; no generated user config |
-| No Chat Reports | 26.3-v2.21.0 | `NoChatReports/NCR-Client.json`, `NoChatReports/NCR-Common.json`, `NoChatReports/NCR-ServerPreferences.json` |
 | PackBranding | 1.3.0 | `packbranding/config.json` |
 | Placeholder API | 3.2.0+26.3 | Upstream defaults; no generated user config |
 | Presence Footsteps | 1.14.0+26.3 | `presencefootsteps/updater.json`, `presencefootsteps/userconfig.json5` |

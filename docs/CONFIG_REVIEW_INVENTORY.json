@@ -451,17 +451,6 @@
       "review": "No generated user configuration; upstream defaults/dependency behavior."
     },
     {
-      "id": "nochatreports",
-      "name": "No Chat Reports",
-      "version": "26.3-v2.21.0",
-      "config_files": [
-        "NoChatReports/NCR-Client.json",
-        "NoChatReports/NCR-Common.json",
-        "NoChatReports/NCR-ServerPreferences.json"
-      ],
-      "review": "Reviewed generated settings; only curated overrides ship."
-    },
-    {
       "id": "packbranding",
       "name": "PackBranding",
       "version": "1.3.0",
@@ -946,21 +935,6 @@
       "file": "moreculling.toml",
       "status": "TOML parsed",
       "sha256": "976a76d9aeb5c7e9c2a2293dfd1b38a850c20948ffaf813221868089e2fa0953"
-    },
-    {
-      "file": "NoChatReports/NCR-Client.json",
-      "status": "JSON parsed",
-      "sha256": "edfe78d985fe67dce28104f3d87673e94c89134144451c291ecedcd2e2c3b480"
-    },
-    {
-      "file": "NoChatReports/NCR-Common.json",
-      "status": "JSON parsed",
-      "sha256": "0eaad2630bd70ade719f7810e805810ada25379269ea194e43d3eea30c51dec0"
-    },
-    {
-      "file": "NoChatReports/NCR-ServerPreferences.json",
-      "status": "JSON parsed",
-      "sha256": "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
     },
     {
       "file": "packbranding/config.json",

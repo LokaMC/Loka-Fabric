@@ -8,11 +8,15 @@ for edition in ('loka-fabric', 'loka-fabric-plus'):
     folder = ROOT / 'packs' / edition / '26.3'
     index = json.loads((folder / 'modrinth.index.json').read_text())
     indexes.append(index)
+    assert not any('nochatreports' in f['path'].lower() for f in index['files'])
     assert index['dependencies']['minecraft'] == '26.3'
     assert all(f['env']['client'] == 'required' for f in index['files'])
     metadata = json.loads((folder / 'metadata/version-fields.json').read_text())
     with zipfile.ZipFile(ROOT / 'out' / metadata['primary_file']) as z:
         assert z.testzip() is None
+        assert not any('nochatreports' in n.lower() for n in z.namelist())
+        with zipfile.ZipFile(io.BytesIO(z.read('overrides/resourcepacks/Loka Interface.zip'))) as interface:
+            assert not any('nochatreports' in n.lower() for n in interface.namelist())
         assert len(z.namelist()) == len(set(z.namelist()))
         assert json.loads(z.read('modrinth.index.json')) == index
         overrides = json.loads((folder / 'overrides-manifest.json').read_text())

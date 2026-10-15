@@ -121,7 +121,7 @@
   },
   "overrides/resourcepacks/Loka Interface.zip": {
     "source": "shared/overrides/resourcepacks/Loka Interface.zip",
-    "sha512": "56a7a04e29bc5ae82d0dec93abab34e6b023d5960c54f74585e5e129daab68967596c7d1cb0f90a757e6e434cc1b8c6af4d134eb010eb01d658c3520bfacc649"
+    "sha512": "1f29ee2c5ed5126314747557a012e424bb20533f76289ca9544ed5a890013d753bb01e67fb90f8104bddd34a2c86a269eb4bbe97bf7bd80dd8339addc6bd97ed"
   },
   "overrides/servers.dat": {
     "source": "shared/overrides/servers.dat",

@@ -1,5 +1,6 @@
 # Loka Fabric / Loka Fabric+ 26.3 — 2.0.0
 
+- No Chat Reports removed from both editions, including its unused interface sprites.
 - Better Mount HUD 1.3.1 is included in both editions.
 - Pack Branding uses the supplied Loka Fabric and Loka Fabric+ window/taskbar icons with their matching window titles.
 - Loka Minecraft Discord presence shows Username | Rank above Town of Alliance, with the standard circular Loka Fabric logo, player-head badge, elapsed time and Discord/modpack buttons; no location, world or dimension information is published.
