@@ -13,6 +13,7 @@ Shared shipped defaults: 1280×720, Auto GUI scale, MiniHUD rendering off, shade
 | Axiom | 6.1.3 | `axiom/axiom.json` |
 | BadOptimizations | 2.4.1 | `badoptimizations.txt` |
 | Better Clouds | 1.15.0-beta.5+26.3-fabric | `betterclouds-v1.json` |
+| Better Mount HUD | 1.3.1 | No config or added keybinds; static inspection of the official Fabric 26.3 jar; mounted HUD visual check pending |
 | Bobby | 5.2.16+mc26.3 | `bobby.conf` |
 | Camera Utils | 1.1.2+26.3 | `camerautils/camerautils.properties` |
 | Capes | 1.5.10+26.3 | `capes.json5` |

@@ -1,9 +1,9 @@
 [
   {
     "filename": "Loka-Fabric-26.3-2.0.0.mrpack",
-    "bytes": 126832412,
-    "sha512": "b9579533c50e12e594d5f26202d8cffbaef936614c83f42da84286ff627a1434c7b17228e6051c0f67b44a6acab40254ae0c9b84cf45f41697e5ff307f3cad6f",
-    "sha256": "172a50e1d9f86fbc4cf832c6c9c33f967b7bffe211c0dc5b8d6343508a87d7c2"
+    "bytes": 126832577,
+    "sha512": "7644272e4ed4dc06a5617a28cba264ced5fc38a2008e0bebfee248e1589ea86c0b057391c62f5ff411f7ed7c1e043e0613c375435fde7cb0ad6b295ada304cf4",
+    "sha256": "21d84a62d88dc662e1eef940befe9648b40a1a165a99bda11e22d898b1327151"
   },
   {
     "filename": "Loka-Fabric-26.3-shared-assets.zip",
@@ -13,9 +13,9 @@
   },
   {
     "filename": "Loka-Fabric-Plus-26.3-2.0.0.mrpack",
-    "bytes": 139455140,
-    "sha512": "8fbca4d89ac0558d827ce1cfbae212b5e19ca969502210967ca05ff0f028509a9b4e28cbbb0910554ec6e057c478ab45b1da78994b2275e56c61f63059e2b239",
-    "sha256": "763ba25b597478826a78c0b3bea84e348c4b361147ecd377792d2de5b88ec920"
+    "bytes": 139455300,
+    "sha512": "c085bdd82a603e36835f6773ecfa33f10f8ac0251477cfb5a7dd0cd6466967882c2fad6864565569cef890712c37ecc5e2188b152a187335c3740cffb725ac70",
+    "sha256": "53f5a491a456377e69126f6248c08153b2fcbd4590d699f7497d48588bf2ffc0"
   },
   {
     "filename": "Loka-UI-1.0.0-source.zip",

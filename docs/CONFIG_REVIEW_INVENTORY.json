@@ -61,6 +61,13 @@
       "review": "Reviewed generated settings; only curated overrides ship."
     },
     {
+      "id": "bettermounthud",
+      "name": "Better Mount HUD",
+      "version": "1.3.1",
+      "config_files": [],
+      "review": "Static jar inspection: no configuration or added keybinds. Official Fabric 26.3 artifact verified. Mounted HUD visual check pending."
+    },
+    {
       "id": "bobby",
       "name": "Bobby",
       "version": "5.2.16+mc26.3",

@@ -51,6 +51,21 @@
       "fileSize": 60760
     },
     {
+      "path": "mods/bettermounthud-1.3.1.jar",
+      "hashes": {
+        "sha512": "c7fff6ddc463178f7154d433a9dfe21443732d1f70f450a5e03860f631adb2f6a445d72fb59ac017f014add4881edf59d9960e9163d6d497d117bd16a8ae5295",
+        "sha1": "f86040d5010c7aad1c677c7a7fefe52d3b386abd"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/kqJFAPU9/versions/M3Fe5t0L/bettermounthud-1.3.1.jar"
+      ],
+      "fileSize": 20780
+    },
+    {
       "path": "mods/capes-1.5.10+26.3.jar",
       "hashes": {
         "sha1": "87e14543620887cab4f055ad8d033c165b9fc5b8",
