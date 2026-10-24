@@ -11,8 +11,12 @@ Minecraft 26.3, Fabric Loader 0.20.1, release channel.
 - [x] Verify both pack archives, pinned indexes, override hashes, defaults and shared contents.
 - [x] Keep accounts, worlds, logs, caches and local machine paths out of release files.
 - [x] Preserve the FoxyBearGames Git author/committer identity.
-- [ ] Publish the source and 2.0.2 GitHub release assets.
-- [ ] Publish Loka Fabric 2.0.2 on Modrinth and submit Fabric+ 2.0.2 to its existing project.
+- [x] Publish the source and 2.0.2 GitHub release assets.
+- [x] Publish Loka Fabric 2.0.2 on Modrinth and submit Fabric+ 2.0.2 to its existing project.
+
+Loka Fabric is public. Fabric+ remains under Modrinth project review; both tested
+archives are publicly available from the
+[2.0.2 GitHub release](https://github.com/LokaMC/Loka-Fabric/releases/tag/v2.0.2-26.3).
 
 No game was launched, no Minecraft server login was made, no Discord activity was
 sent by the tests and no existing profile was modified. A visible Discord card
