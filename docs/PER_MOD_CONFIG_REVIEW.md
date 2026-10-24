@@ -1,5 +1,9 @@
 # Per-mod configuration review
 
+This table is the historical 2.0.0 review. For 2.0.1, ETF and EMF are removed,
+nine retained mods are updated, and official Voxy/Voxy Extra replace local builds.
+See `UPDATES_2.0.1.json` and `CRASH_FIX_2.0.1.md` for the current pins and checks.
+
 Reviewed 2026-10-14. This records generated files and the installed mod inventory; player data, caches, credentials, and waypoint state are excluded.
 
 Shared shipped defaults: 1280×720, Auto GUI scale, MiniHUD rendering off, shaders off, FancyMenu modpack mode on, Litematica F8 chords, MaLiLib F9. Continuity, Iris, Bobby, Voxy/Voxy Extra, LambDynamicLights and shader packs are exclusive to Loka Fabric+. JermsyBoy is installed but unselected; Polytone, Do a Barrel Roll, Spawn Animations, Not Enough Animations and Subtle Effects are removed from Loka Fabric+.

@@ -1,5 +1,11 @@
 # Loka 26.3 configuration audit
 
+2.0.1 update (2026-10-24): ETF and EMF are removed. Fabric+ now uses official Voxy
+and Voxy Extra downloads. Existing shared configuration is retained; Voxy Extra's
+two new toggle shortcuts are unbound by default. The audit below records the
+earlier 2.0.0 in-game review. Current update and validation details are in
+`CRASH_FIX_2.0.1.md` and `UPDATES_2.0.1.json`.
+
 Final local pass: 2026-10-14. Every installed top-level mod is listed in `PER_MOD_CONFIG_REVIEW.md`; exact configuration file hashes and raw key overlaps are in `CONFIG_REVIEW_INVENTORY.json`.
 
 ## Shared shipped configuration

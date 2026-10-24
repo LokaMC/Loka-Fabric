@@ -9,12 +9,16 @@ for edition in ('loka-fabric', 'loka-fabric-plus'):
     index = json.loads((folder / 'modrinth.index.json').read_text())
     indexes.append(index)
     assert not any('nochatreports' in f['path'].lower() for f in index['files'])
+    assert not any(name in f['path'].lower() for f in index['files']
+                   for name in ('entity_texture_features', 'entity_model_features'))
     assert index['dependencies']['minecraft'] == '26.3'
     assert all(f['env']['client'] == 'required' for f in index['files'])
     metadata = json.loads((folder / 'metadata/version-fields.json').read_text())
     with zipfile.ZipFile(ROOT / 'out' / metadata['primary_file']) as z:
         assert z.testzip() is None
         assert not any('nochatreports' in n.lower() for n in z.namelist())
+        assert not any(name in n.lower() for n in z.namelist()
+                       for name in ('entity_texture_features', 'entity_model_features'))
         with zipfile.ZipFile(io.BytesIO(z.read('overrides/resourcepacks/Loka Interface.zip'))) as interface:
             assert not any('nochatreports' in n.lower() for n in interface.namelist())
         assert len(z.namelist()) == len(set(z.namelist()))

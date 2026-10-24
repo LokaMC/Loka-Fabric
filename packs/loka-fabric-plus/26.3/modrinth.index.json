@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "2.0.0",
+  "versionId": "2.0.1",
   "name": "Loka Fabric+",
   "summary": "Everything in Loka Fabric, plus shaders, distant terrain, connected textures, replay and building tools, richer sound, atmosphere, and animation.",
   "files": [
@@ -156,36 +156,6 @@
       "fileSize": 87230
     },
     {
-      "path": "mods/entity_model_features-3.3.11-26.3-fabric.jar",
-      "hashes": {
-        "sha1": "9c11805cc34153fd89cb9fecf78be2b5a803b373",
-        "sha512": "0c9a074518d01e4947adf7b5a9547c35f806bf936a51c721c4dd4c53517f61a7f4d3a8b66340521cd2aa564eb322826fe0c8003197635500f777a7ae9c6673f7"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/4I1XuqiY/versions/N7d5LddE/entity_model_features-3.3.11-26.3-fabric.jar"
-      ],
-      "fileSize": 664472
-    },
-    {
-      "path": "mods/entity_texture_features-7.2.5-26.3-fabric.jar",
-      "hashes": {
-        "sha1": "c4d8d0f47a2ab15091f47a1d74336a119ab5f1b1",
-        "sha512": "6b03e523f27f0f001de48eaf771f81fba18cd072f60c0f9530023a7fdbd22aafa0953f3d3f9704930a625c982831e28c228798b82579e79938bb22fb46e59761"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/BVzZfTc1/versions/O8J3sxxp/entity_texture_features-7.2.5-26.3-fabric.jar"
-      ],
-      "fileSize": 792734
-    },
-    {
       "path": "mods/entityculling-fabric-1.11.3-mc26.3.jar",
       "hashes": {
         "sha1": "45f47f7a067f5efd733a32767dc3d1d770678b2a",
@@ -216,19 +186,19 @@
       "fileSize": 4602936
     },
     {
-      "path": "mods/fabric-api-0.162.0+26.3.jar",
+      "path": "mods/fabric-api-0.165.0+26.3.jar",
       "hashes": {
-        "sha1": "273cd2dcbd92d1559edcc91c9f23fee47f6ff93f",
-        "sha512": "5ab70908952f1d2346d16b122ca31327f4055db59c279a1bc3c3c581ce359bb541cba15730f55b0727be7c7c4debc4a4412a183c228e0d4dea81c734f7b412ce"
+        "sha1": "8f8a23d6c9fbf7b075b31b4fb0a1007b0488d1d2",
+        "sha512": "0a4b8a14e847b71567b557b43d906c2167fa263eeeef37454a821ba286996e3da1616dc2d9647736d28a250d5ecf400541cae808359b29a62324a8a6f2ad5e30"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/P7dR8mSH/versions/v2j28coa/fabric-api-0.162.0%2B26.3.jar"
+        "https://cdn.modrinth.com/data/P7dR8mSH/versions/EQKgpeKu/fabric-api-0.165.0%2B26.3.jar"
       ],
-      "fileSize": 1772377
+      "fileSize": 1778588
     },
     {
       "path": "mods/fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
@@ -276,19 +246,19 @@
       "fileSize": 120517
     },
     {
-      "path": "mods/Gamma-Utils-Fabric-3.2.1+mc26.3.jar",
+      "path": "mods/Gamma-Utils-Fabric-3.2.2+mc26.3.jar",
       "hashes": {
-        "sha1": "b4e53eaa2ae98c708274e90a05da0a7ecf82463a",
-        "sha512": "f3caeb46d0a2e409e9df1911ecda8b59058092c4f3be5a8dd147741100873afac7b1c47a5142e005d0dbed5217f5b986a473be57a139ce4f46786d62599938d5"
+        "sha512": "6cc6029537b7741af1c7b36a9f44e22bf379c4851c4d44918acc24d2d74009d4739eb1a1296078ac2b8d3d9430083b9452a168059d3ca090394656adbad02575",
+        "sha1": "98c1ca5bfd1ec3b2ab992323bd3f8fd957b4066d"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/wdLuzzEP/versions/zO0x3GkS/Gamma-Utils-Fabric-3.2.1%2Bmc26.3.jar"
+        "https://cdn.modrinth.com/data/wdLuzzEP/versions/k6ywOirE/Gamma-Utils-Fabric-3.2.2%2Bmc26.3.jar"
       ],
-      "fileSize": 103102
+      "fileSize": 103107
     },
     {
       "path": "mods/ImmediatelyFast-Fabric-1.17.1+26.3.jar",
@@ -561,19 +531,19 @@
       "fileSize": 58151
     },
     {
-      "path": "mods/ViaFabricPlus-5.1.1.jar",
+      "path": "mods/ViaFabricPlus-5.1.2.jar",
       "hashes": {
-        "sha1": "5198543345779fdd66db251cfe08c2905b7f3fe2",
-        "sha512": "6d17337a833ebd6ab8dba31820196569fdda7ac2164f60bd1d05072c858a2840355d08d524decffe7d50bb4f95f489bcf4b0a114fb00fb0bc0d1be455f2c2afa"
+        "sha1": "3d9aa76fbfdd519c597c267bc3fd0fb600703894",
+        "sha512": "9e9cfb42ce09d5a18b876c20a18d8a6e76fc334976a44f14f2546b99cbf2ebc01b3f092ed2c1ba978a0213859e175e2387d05a32844166a741fa3fe18655022f"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/rIC2XJV4/versions/vV9NPd0U/ViaFabricPlus-5.1.1.jar"
+        "https://cdn.modrinth.com/data/rIC2XJV4/versions/USbdQnMN/ViaFabricPlus-5.1.2.jar"
       ],
-      "fileSize": 10331914
+      "fileSize": 10351659
     },
     {
       "path": "mods/vmp-fabric-mc26.3-0.2.0+beta.7.238-all.jar",
@@ -892,19 +862,19 @@
       "fileSize": 4065223
     },
     {
-      "path": "mods/AmbientSounds_FABRIC_v6.3.10_mc26.3.jar",
+      "path": "mods/AmbientSounds_FABRIC_v6.3.11_mc26.3.jar",
       "hashes": {
-        "sha1": "4fabbefc02692d1d35c999fd16fc3934b4e77c64",
-        "sha512": "bb8f47ee6b4952f3ccd71a4e30ee45790c0d3c7e4159a869093cad9cb1389cc7abf1f31f0625d2e4385640ac8662410b0115049cadd1cc30b7a200cfb93f3739"
+        "sha1": "fff553cf5aef69026b1b25d1435da39e9097a2f3",
+        "sha512": "bd042fec99c1178f5521166f4a0284a2d5d9780e43a20404b62933f3870bfa957ec30c038173df14ce615b095e73b5a78484a416d8b02c8aeadf2973f53426d0"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/fM515JnW/versions/T9Nl4OKj/AmbientSounds_FABRIC_v6.3.10_mc26.3.jar"
+        "https://cdn.modrinth.com/data/fM515JnW/versions/LFUkYKC1/AmbientSounds_FABRIC_v6.3.11_mc26.3.jar"
       ],
-      "fileSize": 84824816
+      "fileSize": 84825097
     },
     {
       "path": "mods/Axiom-6.1.3-for-MC26.3.jar",
@@ -982,34 +952,34 @@
       "fileSize": 1491243
     },
     {
-      "path": "mods/CreativeCore_FABRIC_v2.14.19_mc26.3.jar",
+      "path": "mods/CreativeCore_FABRIC_v2.14.24_mc26.3.jar",
       "hashes": {
-        "sha1": "1b3681bc987c6ce360220d4173139fc392080fe0",
-        "sha512": "bcf7b1dae14801206b4a9d6c399741090ad5e278d18240fef1208564415f86b1564c92726ed83f6e2397ed3781cf57f8a61700c4ca0dd9af347b0a4de7e44662"
+        "sha512": "d05bbab192eaff9e66496bc0ba7b2bce67c1d23d99132ec7241dd2c4c07c5199983bd60ad83246b0ad78609a2724358510fa189530c19b0590f5de494bbd19e5",
+        "sha1": "d4e8c3ab82a2d44d0de89fda635677b402eaebc3"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/OsZiaDHq/versions/GO707F1h/CreativeCore_FABRIC_v2.14.19_mc26.3.jar"
+        "https://cdn.modrinth.com/data/OsZiaDHq/versions/7YUEsxpw/CreativeCore_FABRIC_v2.14.24_mc26.3.jar"
       ],
-      "fileSize": 1387788
+      "fileSize": 1422113
     },
     {
-      "path": "mods/DBTools-2.3.1+MC26.3-AX6.1.3.jar",
+      "path": "mods/DBTools-2.4.1+MC26.3-AX6.1.3.jar",
       "hashes": {
-        "sha1": "57c34a0031523849e0537a0333e10f1614f5e9d0",
-        "sha512": "5693931d1352813b7c0fdeac2e7e9d3caf3b7add1cded106ed8d7488de85acee68d34564885809b35a59b2e64daef1f45db4448b64de5c780a81d97704fe9940"
+        "sha1": "96bb5deb88a7b5acbe4e5cc2fdb1fd625c53c934",
+        "sha512": "ce4dd5c0208afb600ca383320f6d333022e92b39e4aafdf6814ceb4cbcdfcf270fdcfb5b559fcff959e972eb6a506bdad62098b9232ce0374029329dcc5adf73"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/6SWRzDjk/versions/tN2Q74i8/DBTools-2.3.1%2BMC26.3-AX6.1.3.jar"
+        "https://cdn.modrinth.com/data/6SWRzDjk/versions/UpP9xeHF/DBTools-2.4.1%2BMC26.3-AX6.1.3.jar"
       ],
-      "fileSize": 4269019
+      "fileSize": 4532367
     },
     {
       "path": "mods/fallingleaves-2.0.8+26.3.jar",
@@ -1132,19 +1102,19 @@
       "fileSize": 228868
     },
     {
-      "path": "mods/skinlayers3d-fabric-1.11.3-mc26.3.jar",
+      "path": "mods/skinlayers3d-fabric-1.11.4-mc26.3.jar",
       "hashes": {
-        "sha1": "31ee367d5900d20a77c9c610cdd6dc9361c26865",
-        "sha512": "5217aac8fc55952d5837932fbad3eb2d8a2211a57ff602db9be7a0e2678ea90f11cc5c37d4e44abee835f7831508af770c1ba6334dd2933290fe6699978f4118"
+        "sha512": "1a93ba9f726f8053e111abbe225f67b85e74bdfb78955711218ef103e670bc2c0f011f5911bf725686b79a1b85cecbb1ba733bf1b2eaa2856e53c4f842680627",
+        "sha1": "1eef5b7a4b931c236c117def1c6b867be0443116"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/zV5r3pPn/versions/G8BCRxv5/skinlayers3d-fabric-1.11.3-mc26.3.jar"
+        "https://cdn.modrinth.com/data/zV5r3pPn/versions/gjM2TO0L/skinlayers3d-fabric-1.11.4-mc26.3.jar"
       ],
-      "fileSize": 1890220
+      "fileSize": 1892299
     },
     {
       "path": "mods/sound-physics-remastered-fabric-1.5.1+26.3.jar",
@@ -1162,34 +1132,34 @@
       "fileSize": 201641
     },
     {
-      "path": "mods/waveycapes-fabric-1.11.2-mc26.3.jar",
+      "path": "mods/waveycapes-fabric-1.11.3-mc26.3.jar",
       "hashes": {
-        "sha1": "58981c8cb977416472377f1e9f3accdc3c0bd739",
-        "sha512": "37258922ea1fc332f43612e14f8dbc6cc8b60cb3341adc6a6b9b49422ccd1c661607f84c6dad9ae07e24eb70d48ca0e6034f02e4b0e0abe80c108172d890d2b4"
+        "sha1": "abf486eb5e338c6da17add315afa9fae38afbed8",
+        "sha512": "8be4bbe1efdf9ccb0d57b4e399849c52ac9034b3ba12012cb71e4951a800205b81bb4e035b7558c2005cce43acf7840b8ef0ca9f3568a22a7633dbf398866a21"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/kYuIpRLv/versions/btMqe7fQ/waveycapes-fabric-1.11.2-mc26.3.jar"
+        "https://cdn.modrinth.com/data/kYuIpRLv/versions/HzJI5xeL/waveycapes-fabric-1.11.3-mc26.3.jar"
       ],
-      "fileSize": 1771311
+      "fileSize": 1764922
     },
     {
-      "path": "mods/worldedit-mod-7.4.6-beta-02.jar",
+      "path": "mods/worldedit-mod-7.4.6.jar",
       "hashes": {
-        "sha1": "7b10411d204e7a26c39af7654ae914ea830cd89b",
-        "sha512": "f7de9f7658319f38a9d0211a2592c91d412e98599d1ff378968509ccf0aa8f1ce7ab7e669f5c866552676d2a7a23d3cfdd16b54ee1a50d22c14fce8cfa30bba7"
+        "sha512": "3bc4fbf2ee36746f54dc036283b3ded3f17fd91991eaa1ead76b0861aa902cd7ffbc0962db0065d8690e46d1c4890847ebe97ee0b4e36a979b41168c30586ee4",
+        "sha1": "8f7962199ec8b3fef214b7f81c07fcf2d1eac28f"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/1u6JkXh5/versions/E7sbeRFx/worldedit-mod-7.4.6-beta-02.jar"
+        "https://cdn.modrinth.com/data/1u6JkXh5/versions/ByRNkO83/worldedit-mod-7.4.6.jar"
       ],
-      "fileSize": 5166191
+      "fileSize": 5166790
     },
     {
       "path": "mods/WorldEditCUI-26.3+01.jar",
@@ -1220,10 +1190,40 @@
         "https://cdn.modrinth.com/data/sEh1CBs4/versions/7REXgZ4Y/packbranding-1.3.0.jar"
       ],
       "fileSize": 59591
+    },
+    {
+      "path": "mods/voxy-0.2.20-beta.jar",
+      "hashes": {
+        "sha512": "ab502017b3241e1307717ca426ba564f1450ddb7d9d37e95759e57ee5edc7cb014aa48628f51f6010ffd2a410dadf1f4eea7ba86c0da6233059c0a6120157a01",
+        "sha1": "a0efa54716b0fcbf4075cc18f4dbfbdc3b0cf305"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/fxxUqruK/versions/iIrM8ZKQ/voxy-0.2.20-beta.jar"
+      ],
+      "fileSize": 12668812
+    },
+    {
+      "path": "mods/voxy-extra-0.2.8.jar",
+      "hashes": {
+        "sha512": "c03786aa11c8640d9e41ed399fc4e696eee7761beb684240e7b7aa6484f5117443f6e4845e378b3b07ec09957271bae669bba0f811f1c358ec60e8ce27dd4fdc",
+        "sha1": "680b47c1796d32efe9232a9718e6de53c08947db"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/znQnhrkQ/versions/F8Ri3jml/voxy-extra-0.2.8.jar"
+      ],
+      "fileSize": 71306
     }
   ],
   "dependencies": {
     "minecraft": "26.3",
-    "fabric-loader": "0.19.5"
+    "fabric-loader": "0.20.1"
   }
 }

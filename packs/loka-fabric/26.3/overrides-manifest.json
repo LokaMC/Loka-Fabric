@@ -85,7 +85,7 @@
   },
   "overrides/config/packbranding/config.json": {
     "source": "packs/loka-fabric/26.3/overrides/config/packbranding/config.json",
-    "sha512": "e271cf77be80f578a472608bfcccc6cf3f800cc3835af9922f0a713e542fe668f82ee512c3f3319def935fd190cc14f6ae88867b9da6167f3474418fc8693f70"
+    "sha512": "56646d1ccf7a32838a98c692c7edcaf51ffab77553d0736b2367c2c8d8af83f5d21e9f8c6a6e07ee514b350bf96564e3f197170dff663421cf8c0477414d14c3"
   },
   "overrides/config/packbranding/icon.png": {
     "source": "packs/loka-fabric/26.3/overrides/config/packbranding/icon.png",

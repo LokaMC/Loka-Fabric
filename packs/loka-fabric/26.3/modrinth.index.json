@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "game": "minecraft",
-  "versionId": "2.0.0",
+  "versionId": "2.0.1",
   "name": "Loka Fabric",
   "summary": "The everyday Fabric client for Loka: smoother PvP, AntiStutter, Atlas, useful client tools, and a custom Loka theme.",
   "files": [
@@ -126,36 +126,6 @@
       "fileSize": 87230
     },
     {
-      "path": "mods/entity_model_features-3.3.11-26.3-fabric.jar",
-      "hashes": {
-        "sha1": "9c11805cc34153fd89cb9fecf78be2b5a803b373",
-        "sha512": "0c9a074518d01e4947adf7b5a9547c35f806bf936a51c721c4dd4c53517f61a7f4d3a8b66340521cd2aa564eb322826fe0c8003197635500f777a7ae9c6673f7"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/4I1XuqiY/versions/N7d5LddE/entity_model_features-3.3.11-26.3-fabric.jar"
-      ],
-      "fileSize": 664472
-    },
-    {
-      "path": "mods/entity_texture_features-7.2.5-26.3-fabric.jar",
-      "hashes": {
-        "sha1": "c4d8d0f47a2ab15091f47a1d74336a119ab5f1b1",
-        "sha512": "6b03e523f27f0f001de48eaf771f81fba18cd072f60c0f9530023a7fdbd22aafa0953f3d3f9704930a625c982831e28c228798b82579e79938bb22fb46e59761"
-      },
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/BVzZfTc1/versions/O8J3sxxp/entity_texture_features-7.2.5-26.3-fabric.jar"
-      ],
-      "fileSize": 792734
-    },
-    {
       "path": "mods/entityculling-fabric-1.11.3-mc26.3.jar",
       "hashes": {
         "sha1": "45f47f7a067f5efd733a32767dc3d1d770678b2a",
@@ -171,19 +141,19 @@
       "fileSize": 1508547
     },
     {
-      "path": "mods/fabric-api-0.162.0+26.3.jar",
+      "path": "mods/fabric-api-0.165.0+26.3.jar",
       "hashes": {
-        "sha1": "273cd2dcbd92d1559edcc91c9f23fee47f6ff93f",
-        "sha512": "5ab70908952f1d2346d16b122ca31327f4055db59c279a1bc3c3c581ce359bb541cba15730f55b0727be7c7c4debc4a4412a183c228e0d4dea81c734f7b412ce"
+        "sha1": "8f8a23d6c9fbf7b075b31b4fb0a1007b0488d1d2",
+        "sha512": "0a4b8a14e847b71567b557b43d906c2167fa263eeeef37454a821ba286996e3da1616dc2d9647736d28a250d5ecf400541cae808359b29a62324a8a6f2ad5e30"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/P7dR8mSH/versions/v2j28coa/fabric-api-0.162.0%2B26.3.jar"
+        "https://cdn.modrinth.com/data/P7dR8mSH/versions/EQKgpeKu/fabric-api-0.165.0%2B26.3.jar"
       ],
-      "fileSize": 1772377
+      "fileSize": 1778588
     },
     {
       "path": "mods/fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar",
@@ -231,19 +201,19 @@
       "fileSize": 120517
     },
     {
-      "path": "mods/Gamma-Utils-Fabric-3.2.1+mc26.3.jar",
+      "path": "mods/Gamma-Utils-Fabric-3.2.2+mc26.3.jar",
       "hashes": {
-        "sha1": "b4e53eaa2ae98c708274e90a05da0a7ecf82463a",
-        "sha512": "f3caeb46d0a2e409e9df1911ecda8b59058092c4f3be5a8dd147741100873afac7b1c47a5142e005d0dbed5217f5b986a473be57a139ce4f46786d62599938d5"
+        "sha512": "6cc6029537b7741af1c7b36a9f44e22bf379c4851c4d44918acc24d2d74009d4739eb1a1296078ac2b8d3d9430083b9452a168059d3ca090394656adbad02575",
+        "sha1": "98c1ca5bfd1ec3b2ab992323bd3f8fd957b4066d"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/wdLuzzEP/versions/zO0x3GkS/Gamma-Utils-Fabric-3.2.1%2Bmc26.3.jar"
+        "https://cdn.modrinth.com/data/wdLuzzEP/versions/k6ywOirE/Gamma-Utils-Fabric-3.2.2%2Bmc26.3.jar"
       ],
-      "fileSize": 103102
+      "fileSize": 103107
     },
     {
       "path": "mods/ImmediatelyFast-Fabric-1.17.1+26.3.jar",
@@ -501,19 +471,19 @@
       "fileSize": 58151
     },
     {
-      "path": "mods/ViaFabricPlus-5.1.1.jar",
+      "path": "mods/ViaFabricPlus-5.1.2.jar",
       "hashes": {
-        "sha1": "5198543345779fdd66db251cfe08c2905b7f3fe2",
-        "sha512": "6d17337a833ebd6ab8dba31820196569fdda7ac2164f60bd1d05072c858a2840355d08d524decffe7d50bb4f95f489bcf4b0a114fb00fb0bc0d1be455f2c2afa"
+        "sha1": "3d9aa76fbfdd519c597c267bc3fd0fb600703894",
+        "sha512": "9e9cfb42ce09d5a18b876c20a18d8a6e76fc334976a44f14f2546b99cbf2ebc01b3f092ed2c1ba978a0213859e175e2387d05a32844166a741fa3fe18655022f"
       },
       "env": {
         "client": "required",
         "server": "unsupported"
       },
       "downloads": [
-        "https://cdn.modrinth.com/data/rIC2XJV4/versions/vV9NPd0U/ViaFabricPlus-5.1.1.jar"
+        "https://cdn.modrinth.com/data/rIC2XJV4/versions/USbdQnMN/ViaFabricPlus-5.1.2.jar"
       ],
-      "fileSize": 10331914
+      "fileSize": 10351659
     },
     {
       "path": "mods/vmp-fabric-mc26.3-0.2.0+beta.7.238-all.jar",
@@ -819,6 +789,6 @@
   ],
   "dependencies": {
     "minecraft": "26.3",
-    "fabric-loader": "0.19.5"
+    "fabric-loader": "0.20.1"
   }
 }

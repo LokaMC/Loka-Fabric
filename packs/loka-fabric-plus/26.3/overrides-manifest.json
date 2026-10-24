@@ -85,7 +85,7 @@
   },
   "overrides/config/packbranding/config.json": {
     "source": "packs/loka-fabric-plus/26.3/overrides/config/packbranding/config.json",
-    "sha512": "3c26eb1a4ec53f3a7e32c7e7fc9d8d7a7104454db9fbf8446d27dde08ef30886935e7c5ea83a30fbda85d7d6a05353438efd630691583923858de2d6bf20b529"
+    "sha512": "d116f644153c095d828308ed4d63bc0be319a74496f8569a7e77bb1083af104a5133f57406a9ab1c3c62a6789086d785a99619cfe76a53f2d2f2df633a140955"
   },
   "overrides/config/packbranding/icon.png": {
     "source": "packs/loka-fabric-plus/26.3/overrides/config/packbranding/icon.png",
@@ -106,14 +106,6 @@
   "overrides/mods/loka-waypoints-1.0.6.jar": {
     "external": "blobs/a0db784c1d2c0624df3bc050cc8d830f2eb90676b6673bb0e63128ffd1f84adf48327acea259ed0b6581f327c74b9df742e1bff5c780df5ddd31d39c210fac51/loka-waypoints-1.0.6.jar",
     "sha512": "a0db784c1d2c0624df3bc050cc8d830f2eb90676b6673bb0e63128ffd1f84adf48327acea259ed0b6581f327c74b9df742e1bff5c780df5ddd31d39c210fac51"
-  },
-  "overrides/mods/voxy-0.2.20-beta-61c1dee.jar": {
-    "external": "blobs/4747c777a337403151c71015769f7f3c3aeb1580a04ee3c40bf5a4b4a20910f69744f13122d8cff5504b88080380f82c529899506a9c42f0c8487658df0a92e4/voxy-0.2.20-beta-61c1dee.jar",
-    "sha512": "4747c777a337403151c71015769f7f3c3aeb1580a04ee3c40bf5a4b4a20910f69744f13122d8cff5504b88080380f82c529899506a9c42f0c8487658df0a92e4"
-  },
-  "overrides/mods/voxy-extra-0.2.6-loka-26.3-test.jar": {
-    "source": "packs/loka-fabric-plus/26.3/overrides/mods/voxy-extra-0.2.6-loka-26.3-test.jar",
-    "sha512": "2eed4ce37667e1073aeb6849654f8078c3f24d659d4b9f9f188cab43aac9b637f0060f2365bb6cf2fee0a1652b009bac50dcc3e9fdb9cc627e59d72c9f17eff4"
   },
   "overrides/options.txt": {
     "source": "shared/overrides/options.txt",

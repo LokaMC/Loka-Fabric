@@ -1,5 +1,21 @@
 # Validation and scope
 
+## 2.0.1 — 2026-10-24
+
+Loka Fabric contains 53 top-level mod jars; Loka Fabric+ contains 80 and includes
+every base-pack file. ETF and EMF are absent, including recursively bundled jars.
+All 81 distinct indexed downloads pass their official hash and size checks.
+Fabric Loader's version predicates pass 1,010 required-dependency and conflict
+checks, including bundled libraries. Both assembled archives pass the repository's
+integrity, pinned-index, override-hash, shared-content and launch-default checks.
+Voxy Extra's two new keybindings default to unbound.
+
+No game was launched, no Loka connection was made and no existing launcher profile
+was changed. The reported scene has not been reproduced in game. See
+[the crash investigation](CRASH_FIX_2.0.1.md) and [exact updates](UPDATES_2.0.1.json).
+
+## Earlier 2.0.0 validation
+
 Minecraft 26.3, release 2.0.0: Loka Fabric has 55 top-level mod jars; Loka Fabric+ has 82 and contains every base mod. Indexed client files are required in both editions. Release archive integrity and SHA-512 hashes are checked, as are shared-file equality and launch defaults.
 
 Earlier in-game checks covered startup, title/pause layouts at normal and wide sizes, terrain loading in a local world and on Loka, multiplayer buttons, Voxy/Voxy Extra and shader rendering. In the final 2026-10-14 pass, both current profiles reached the title screen; the singleplayer video, Deep Dark settings background, title footer spacing and Flashback tooltip were checked. The repaired CraftPresence defaults survived a subsequent startup without fallback resets or irrelevant launcher-detection errors.

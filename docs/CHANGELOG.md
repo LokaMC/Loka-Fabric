@@ -1,3 +1,13 @@
+# Loka Fabric / Loka Fabric+ 26.3 — 2.0.1
+
+- Remove Entity Texture Features (ETF) and its dependent Entity Model Features (EMF) from both editions. This removes the custom enchanted-skin rendering path implicated in the fatal `armor_cutout_no_cull_glint` / missing OIT pipeline error. Normal Minecraft skins and enchanted armor/items remain available.
+- Update Fabric Loader to 0.20.1, Fabric API to 0.165.0+26.3, Gamma Utils to 3.2.2, and ViaFabricPlus to 5.1.2 in both editions.
+- Loka Fabric+: update AmbientSounds to 6.3.11, CreativeCore to 2.14.24, DBTools to 2.4.1, 3D Skin Layers to 1.11.4, WaveyCapes to 1.11.3, and WorldEdit to 7.4.6.
+- Loka Fabric+: replace the locally built Voxy and Voxy Extra jars with their official Minecraft 26.3 downloads, Voxy 0.2.20-beta and Voxy Extra 0.2.8. Voxy remains an upstream beta.
+- All other indexed projects checked for compatible 26.3 Fabric updates; existing compatible pins retained. No Minecraft server login used for this release's validation.
+
+---
+
 # Loka Fabric / Loka Fabric+ 26.3 — 2.0.0
 
 - No Chat Reports removed from both editions, including its unused interface sprites.

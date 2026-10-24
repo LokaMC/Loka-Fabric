@@ -1,0 +1,88 @@
+{
+  "minecraft": "26.3",
+  "pack_version": "2.0.1",
+  "checked_date": "2026-10-24",
+  "fabric_loader": "0.20.1",
+  "removed": [
+    "entity_texture_features",
+    "entity_model_features"
+  ],
+  "indexed_projects_checked": 80,
+  "updates": [
+    {
+      "project": "fabric-api",
+      "from": "0.162.0+26.3",
+      "to": "0.165.0+26.3",
+      "version_id": "EQKgpeKu",
+      "url": "https://modrinth.com/mod/fabric-api/version/EQKgpeKu"
+    },
+    {
+      "project": "gamma-utils",
+      "from": "3.2.1+Fabric",
+      "to": "3.2.2+Fabric",
+      "version_id": "k6ywOirE",
+      "url": "https://modrinth.com/mod/gamma-utils/version/k6ywOirE"
+    },
+    {
+      "project": "viafabricplus",
+      "from": "5.1.1",
+      "to": "5.1.2",
+      "version_id": "USbdQnMN",
+      "url": "https://modrinth.com/mod/viafabricplus/version/USbdQnMN"
+    },
+    {
+      "project": "ambientsounds",
+      "from": "6.3.10",
+      "to": "6.3.11",
+      "version_id": "LFUkYKC1",
+      "url": "https://modrinth.com/mod/ambientsounds/version/LFUkYKC1"
+    },
+    {
+      "project": "creativecore",
+      "from": "2.14.19",
+      "to": "2.14.24",
+      "version_id": "7YUEsxpw",
+      "url": "https://modrinth.com/mod/creativecore/version/7YUEsxpw"
+    },
+    {
+      "project": "dbtools",
+      "from": "2.3.1+MC26.3-AX6.1.3",
+      "to": "2.4.1+MC26.3-AX6.1.3",
+      "version_id": "UpP9xeHF",
+      "url": "https://modrinth.com/mod/dbtools/version/UpP9xeHF"
+    },
+    {
+      "project": "3dskinlayers",
+      "from": "1.11.3",
+      "to": "1.11.4",
+      "version_id": "gjM2TO0L",
+      "url": "https://modrinth.com/mod/3dskinlayers/version/gjM2TO0L"
+    },
+    {
+      "project": "wavey-capes",
+      "from": "1.11.2",
+      "to": "1.11.3",
+      "version_id": "HzJI5xeL",
+      "url": "https://modrinth.com/mod/wavey-capes/version/HzJI5xeL"
+    },
+    {
+      "project": "worldedit",
+      "from": "7.4.6-beta-02",
+      "to": "7.4.6",
+      "version_id": "ByRNkO83",
+      "url": "https://modrinth.com/mod/worldedit/version/ByRNkO83"
+    }
+  ],
+  "official_replacements": [
+    {
+      "project": "voxy",
+      "version": "0.2.20-beta",
+      "version_id": "iIrM8ZKQ"
+    },
+    {
+      "project": "voxy-extra",
+      "version": "0.2.8",
+      "version_id": "F8Ri3jml"
+    }
+  ]
+}
