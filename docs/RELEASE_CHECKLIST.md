@@ -1,27 +1,22 @@
-# 2.0.1 release — 2026-10-24
+# 2.0.2 release — 2026-10-24
 
 Minecraft 26.3, Fabric Loader 0.20.1, release channel.
 
-- [x] Remove ETF and its required dependent EMF from both editions.
-- [x] Review all indexed projects for compatible upstream updates.
-- [x] Update nine retained mods and replace both local Voxy-family builds with official downloads.
-- [x] Verify all 81 unique indexed downloads against official hashes and sizes.
-- [x] Pass 1,010 required-dependency and conflict version checks with Fabric Loader's predicates.
-- [x] Verify archive integrity, override hashes, branding/version consistency, defaults and shared contents.
-- [x] Confirm Fabric+ includes every base-pack file (53 / 80 top-level mod jars).
-- [x] Prepare edition-specific version metadata and current release notes.
+- [x] Make the small player-head badge independent of the optional Loka bridge.
+- [x] Use a direct compact-UUID 128px PNG avatar with a Minecraft loading fallback.
+- [x] Pass real CraftPresence/UniLib payload checks for both edition configurations.
+- [x] Cover startup, absent/empty/stale bridge data, account switching and account reloads.
+- [x] Preserve existing activity text, logo, timestamps, buttons and privacy fields.
+- [x] Retain all 2.0.1 production mod jars, dependencies and the ETF/EMF removal.
+- [x] Verify both pack archives, pinned indexes, override hashes, defaults and shared contents.
 - [x] Keep accounts, worlds, logs, caches and local machine paths out of release files.
 - [x] Preserve the FoxyBearGames Git author/committer identity.
-- [x] Publish the source and 2.0.1 GitHub release assets.
-- [x] Publish Loka Fabric 2.0.1 on Modrinth and submit Fabric+ 2.0.1 to its existing project.
+- [ ] Publish the source and 2.0.2 GitHub release assets.
+- [ ] Publish Loka Fabric 2.0.2 on Modrinth and submit Fabric+ 2.0.2 to its existing project.
 
-Loka Fabric is public. The Fabric+ project remains under Modrinth review; its
-new version is uploaded successfully, and both packs are publicly available on
-[GitHub Releases](https://github.com/LokaMC/Loka-Fabric/releases/tag/v2.0.1-26.3).
+No game was launched, no Minecraft server login was made, no Discord activity was
+sent by the tests and no existing profile was modified. A visible Discord card
+has not been checked. Restart Minecraft after updating to load the configuration.
+The prior shared-assets archive remains hash-pinned at its original 2.0.0 URL.
 
-No game was launched and no Minecraft server connection was made for this release.
-Existing launcher profiles are untouched. The prior shared-assets archive remains
-hash-pinned at its original 2.0.0 URL and is reused by the assembler.
-
-See [validation scope](VALIDATION.md), [crash diagnosis](CRASH_FIX_2.0.1.md), and
-[exact upstream updates](UPDATES_2.0.1.json).
+See [the icon fix](PRESENCE_ICON_2.0.2.md) and [validation scope](VALIDATION.md).

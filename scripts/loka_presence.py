@@ -5,6 +5,9 @@ LOGO = 'https://cdn.modrinth.com/data/Dm37kntU/fa72d382e606581683f407ae9e11bf97e
 DISCORD = 'https://discord.gg/loka'
 MODPACK = 'https://modrinth.com/modpack/loka-fabric'
 OPTIONS = {'showTownAndAlliance': True, 'refreshSeconds': 600}
+# CraftPresence knows the signed-in account before a Loka connection exists.
+# Use a compact UUID and an explicit PNG URL; never depend on the affiliation bridge.
+PLAYER_ICON = '{getOrDefault(player.uuid.short, "") != "" ? "https://minotar.net/helm/" + player.uuid.short + "/128.png" : "grass"}'
 
 
 def configure(source, pack_name='Loka Fabric'):
@@ -33,8 +36,8 @@ def configure(source, pack_name='Loka Fabric'):
         gameState='{getOrDefault(loka.state, "' + pack_name + '")}',
         detailsUrl='', gameStateUrl='', largeImageKey=LOGO,
         largeImageText='Loka Fabric • Loka Minecraft', largeImageUrl='https://lokamc.com/',
-        smallImageKey='{getOrDefault(loka.player_icon)}',
-        smallImageText='{getOrDefault(loka.player_badge, "' + pack_name + '")}',
+        smallImageKey=PLAYER_ICON,
+        smallImageText='{getOrDefault(player.name, "Minecraft player")} • Loka Minecraft',
         smallImageUrl='', startTimestamp='{getOrDefault(loka.started, data.general.time)}',
         endTimestamp='', buttons={
             'loka_discord': {'label': 'Loka Discord', 'url': DISCORD},

@@ -1,3 +1,13 @@
+# Loka Fabric / Loka Fabric+ 26.3 — 2.0.2
+
+- Fix the small Minecraft player-head badge disappearing when the optional Loka affiliation bridge has not initialized or has no active Loka session. The badge now follows the signed-in Minecraft account directly.
+- Use an explicit 128px PNG avatar URL with the skin's hat layer, a compact account UUID and no username lookup. A registered Minecraft icon is used while the account UUID is unavailable.
+- Preserve the Loka logo, username/rank, public membership, elapsed time and privacy settings. No location or join information is added.
+- Verify real CraftPresence payloads for account loading, missing/empty/stale bridge data and account switching. No Discord activity was sent by the tests, and no Minecraft server login was used.
+- Retain all 2.0.1 mod pins, including the ETF/EMF removal.
+
+---
+
 # Loka Fabric / Loka Fabric+ 26.3 — 2.0.1
 
 - Remove Entity Texture Features (ETF) and its dependent Entity Model Features (EMF) from both editions. This removes the custom enchanted-skin rendering path implicated in the fatal `armor_cutout_no_cull_glint` / missing OIT pipeline error. Normal Minecraft skins and enchanted armor/items remain available.

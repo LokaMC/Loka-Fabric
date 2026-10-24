@@ -53,7 +53,13 @@ RPC updates; it is optional, and its absence does not disable the menu features.
 
 The shared configuration is maintained by the repository's `scripts/loka_presence.py`. In CraftPresence,
 `largeImageKey` is the artwork URL; `largeImageUrl` is the click-through website.
-Player heads are served by mc-heads.net; the standard logo uses Loka Fabric's existing Modrinth CDN icon.
+From pack 2.0.2, player heads use CraftPresence's signed-in account UUID and a
+direct 128px Minotar PNG, including the skin's hat layer. The badge is independent
+of the optional Loka affiliation bridge and remains present during menus,
+singleplayer, reconnects and affiliation-service failures. Before an account UUID
+is available it uses the registered Minecraft `grass` icon. The standard Loka
+logo uses the existing Modrinth CDN icon. The older Loka UI avatar placeholders
+remain available for compatibility but are no longer used by the shipped config.
 
 ## Verification
 

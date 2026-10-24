@@ -1,5 +1,17 @@
 # Validation and scope
 
+## 2.0.2 — 2026-10-24
+
+Real CraftPresence 2.7.1 / UniLib 1.2.1 payload checks pass for both edition
+configs, covering missing accounts, missing/empty/stale Loka artwork placeholders,
+account switches and account reloads. Badge URLs use the signed-in UUID directly;
+other presence fields and privacy checks pass. Both rebuilt archives pass the
+repository's index, override-hash, integrity, branding, shared-content and default
+checks. Production mod jars and dependency pins are unchanged from 2.0.1.
+
+No game was launched, no server login was made and no Discord activity was sent.
+No visible Discord-card verification is claimed. See `PRESENCE_ICON_2.0.2.md`.
+
 ## 2.0.1 — 2026-10-24
 
 Loka Fabric contains 53 top-level mod jars; Loka Fabric+ contains 80 and includes

@@ -7,7 +7,7 @@ The official Fabric client packs for Loka, for Minecraft **26.3**.
 
 ## Install
 
-Download the appropriate `.mrpack` from [GitHub Releases](https://github.com/LokaMC/Loka-Fabric/releases/tag/v2.0.1-26.3) and import it into Modrinth. The archives are larger than GitHub's regular file limit, so downloads live in Releases.
+Download the appropriate `.mrpack` from [GitHub Releases](https://github.com/LokaMC/Loka-Fabric/releases/tag/v2.0.2-26.3) and import it into Modrinth. The archives are larger than GitHub's regular file limit, so downloads live in Releases.
 
 ## Repository
 
@@ -38,6 +38,10 @@ The builder downloads the hash-pinned shared-assets release archive once. To bui
 Requires Java 25. Run `gradlew.bat build` inside `mods/loka-ui` on Windows, or `gradle build` with Gradle 9.5.1 on other systems. The build runs presence affiliation/privacy regression checks. The packaged jar is also in `mods/loka-ui/releases` and GitHub Releases.
 
 ## Defaults
+
+Release 2.0.2 keeps the Discord player-head badge tied to the signed-in Minecraft
+account, including when the Loka affiliation bridge is unavailable. Restart after
+updating. See the [icon fix](docs/PRESENCE_ICON_2.0.2.md).
 
 Release 2.0.1 removes unused Entity Texture Features and Entity Model Features to
 avoid their custom-glint/OIT crash path. See the [diagnosis and validation](docs/CRASH_FIX_2.0.1.md).

@@ -1,7 +1,7 @@
 {
-  "name": "Loka Fabric 26.3 — 2.0.1",
-  "version_number": "2.0.1",
-  "changelog": "# Loka Fabric / Loka Fabric+ 26.3 — 2.0.1\n\n- Remove Entity Texture Features (ETF) and its dependent Entity Model Features (EMF) from both editions. This removes the custom enchanted-skin rendering path implicated in the fatal `armor_cutout_no_cull_glint` / missing OIT pipeline error. Normal Minecraft skins and enchanted armor/items remain available.\n- Update Fabric Loader to 0.20.1, Fabric API to 0.165.0+26.3, Gamma Utils to 3.2.2, and ViaFabricPlus to 5.1.2 in both editions.\n- Loka Fabric+: update AmbientSounds to 6.3.11, CreativeCore to 2.14.24, DBTools to 2.4.1, 3D Skin Layers to 1.11.4, WaveyCapes to 1.11.3, and WorldEdit to 7.4.6.\n- Loka Fabric+: replace the locally built Voxy and Voxy Extra jars with their official Minecraft 26.3 downloads, Voxy 0.2.20-beta and Voxy Extra 0.2.8. Voxy remains an upstream beta.\n- All other indexed projects checked for compatible 26.3 Fabric updates; existing compatible pins retained. No Minecraft server login used for this release's validation.\n",
+  "name": "Loka Fabric 2.0.2 — Minecraft 26.3",
+  "version_number": "2.0.2",
+  "changelog": "# Loka Fabric / Loka Fabric+ 26.3 — 2.0.2\n\n- Fix the small Minecraft player-head badge disappearing when the optional Loka affiliation bridge has not initialized or has no active Loka session. The badge now follows the signed-in Minecraft account directly.\n- Use an explicit 128px PNG avatar URL with the skin's hat layer, a compact account UUID and no username lookup. A registered Minecraft icon is used while the account UUID is unavailable.\n- Preserve the Loka logo, username/rank, public membership, elapsed time and privacy settings. No location or join information is added.\n- Verify real CraftPresence payloads for account loading, missing/empty/stale bridge data and account switching. No Discord activity was sent by the tests, and no Minecraft server login was used.\n- Retain all 2.0.1 mod pins, including the ETF/EMF removal.\n",
   "dependencies": [],
   "game_versions": [
     "26.3"
@@ -12,7 +12,7 @@
   ],
   "featured": true,
   "file_parts": [
-    "Loka-Fabric-26.3-2.0.1.mrpack"
+    "Loka-Fabric-26.3-2.0.2.mrpack"
   ],
-  "primary_file": "Loka-Fabric-26.3-2.0.1.mrpack"
+  "primary_file": "Loka-Fabric-26.3-2.0.2.mrpack"
 }

@@ -85,7 +85,7 @@
   },
   "overrides/config/packbranding/config.json": {
     "source": "packs/loka-fabric/26.3/overrides/config/packbranding/config.json",
-    "sha512": "56646d1ccf7a32838a98c692c7edcaf51ffab77553d0736b2367c2c8d8af83f5d21e9f8c6a6e07ee514b350bf96564e3f197170dff663421cf8c0477414d14c3"
+    "sha512": "4507a055153ecda4df5bffd71e6fc164cd13d1324c2850610c14ccd850911300f0527bc82354ddefe6cf6523bbd85d0fd26240d98bb4f6721d715b87933b7b92"
   },
   "overrides/config/packbranding/icon.png": {
     "source": "packs/loka-fabric/26.3/overrides/config/packbranding/icon.png",
@@ -133,6 +133,6 @@
   },
   "overrides/config/craftpresence.json": {
     "source": "packs/loka-fabric/26.3/overrides/config/craftpresence.json",
-    "sha512": "6a4ec715122b920aebac8409d0c1c9b86d909d5b3fde0dbd1f2a48f2fa0f6dc8f373c425b2aaa1166b8f3df787e4164f6b1e35a8d114eee7182b4fdb9edb1581"
+    "sha512": "bbc8ad56cac73fcb2a540088be48ee96fb90d2008e9627818221e6ca6f119c84a36f356a5a315aa1075944366830c5149725cd25ee8f6a167cdbb1463a31e6dd"
   }
 }
