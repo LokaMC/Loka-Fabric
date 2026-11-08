@@ -11,21 +11,19 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-/** Replace the shared out-of-world panorama, including mod menus using Screen. */
+/** Provide a slate fallback under out-of-world menus and the controls screens. */
 @Mixin(Screen.class)
 public abstract class MenuPanoramaBackgroundMixin {
     @Inject(method = "extractPanorama", at = @At("HEAD"), cancellable = true)
-    private void loka$menuPanorama(GuiGraphicsExtractor graphics, float delta,
+    private void loka$menuFallback(GuiGraphicsExtractor graphics, float delta,
                                    CallbackInfo callback) {
-        LoadingBackground.draw(graphics);
+        LoadingBackground.drawSlate(graphics, 0, 0, graphics.guiWidth(), graphics.guiHeight());
         callback.cancel();
     }
 
     @Inject(method = "extractBlurredBackground", at = @At("HEAD"), cancellable = true)
-    private void loka$keepDeepDarkReadable(GuiGraphicsExtractor graphics,
+    private void loka$keepMenuBackgroundReadable(GuiGraphicsExtractor graphics,
                                           CallbackInfo callback) {
-        // Preserve the normal blur over a running world. FancyMenu controls the
-        // title/world-list video backgrounds; other menu artwork stays crisp.
         Object screen = this;
         if (Minecraft.getInstance().level == null &&
             !(screen instanceof TitleScreen || screen instanceof SelectWorldScreen)) {

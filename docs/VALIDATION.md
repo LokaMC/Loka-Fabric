@@ -1,5 +1,34 @@
 # Validation and scope
 
+## 2.0.3 — 2026-10-29
+
+The Loka UI build checks centered Colosseum crops and independent watermark
+placement at standard, ultrawide, portrait, odd and small viewport sizes. Both
+staged archives and all 81 distinct indexed downloads pass their integrity and
+hash checks.
+
+Isolated Minecraft 26.3 runs used Fabric Loader 0.20.1 and both staged packs.
+CraftPresence was disabled only in the test instances. Both reached a local
+single-player world, showing the Colosseum and its separate bottom-left watermark
+when loading and preserving the blurred world when paused. In Fabric+, the title,
+Options, world list and graphics settings showed the menu video; Controls and
+Key Binds showed the slate. A resource reload showed the centered gold Loka logo
+as well.
+
+The image and video were also checked in 1280×540 and 540×960 game windows;
+the watermark remained visible and the Colosseum cropped around its center.
+These were window-shape tests, not tests on physical ultrawide or portrait
+monitors. No server was joined. The staged release remains unpublished and is
+held until New Gank Isle is out.
+
+## 2.0.3-preview.1 — 2026-10-27
+
+The Loka UI build checks centered, undistorted crops at 16:9, 21:9-like,
+32:9, 4:3, portrait and odd-sized resolutions. Both unpublished preview packs
+pass archive, override-hash, shared-content and background-setting checks.
+The new crop was previewed from the artwork and a video frame. No game was
+launched for this preview, so the final in-game rendering has not been checked.
+
 ## 2.0.2 — 2026-10-24
 
 Real CraftPresence 2.7.1 / UniLib 1.2.1 payload checks pass for both edition

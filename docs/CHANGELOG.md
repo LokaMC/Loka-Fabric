@@ -1,3 +1,19 @@
+# Loka Fabric / Loka Fabric+ 26.3 — 2.0.3 (staged, unpublished)
+
+- Use the Colosseum artwork for loading and progress, keeping the independent LokaMC watermark in the lower-left corner and the standard gold Loka wordmark on the loading overlay.
+- Use the menu video throughout pre-world menus, slate for Controls and Key Binds, and preserve the blurred world behind in-world settings.
+- Center artwork and video without stretching, including on ultrawide and portrait displays.
+- Hold publication until New Gank Isle is out.
+
+---
+
+# Loka Fabric / Loka Fabric+ 26.3 — 2.0.3-preview.1 (unpublished)
+
+- Center the Deep Dark artwork while filling the screen, cropping equal amounts from opposite edges on wide or tall windows.
+- Preserve the video aspect ratio on the Singleplayer world list, matching the centered title-screen video.
+
+---
+
 # Loka Fabric / Loka Fabric+ 26.3 — 2.0.2
 
 - Fix the small Minecraft player-head badge disappearing when the optional Loka affiliation bridge has not initialized or has no active Loka session. The badge now follows the signed-in Minecraft account directly.

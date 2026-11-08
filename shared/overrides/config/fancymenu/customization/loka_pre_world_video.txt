@@ -1,0 +1,37 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = true
+  is_enabled = true
+  layout_index = 0
+  universal_layout_blacklist = title_screen;select_world_screen;join_multiplayer_screen;controls_screen;net.minecraft.client.gui.screens.options.controls.KeyBindsScreen;net.minecraft.client.gui.screens.ConnectScreen;net.minecraft.client.gui.screens.GenericMessageScreen;net.minecraft.client.gui.screens.ProgressScreen;net.minecraft.client.gui.screens.LevelLoadingScreen;de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen;
+  [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:loka_pre_world] =
+}
+
+menu_background {
+  instance_identifier = loka_pre_world_slate_fallback
+  background_type = image
+  show_background = true
+  image_path = [source:local]/config/fancymenu/assets/menu-slate.png
+  slide = false
+  repeat_texture = false
+  parallax = false
+}
+
+menu_background {
+  instance_identifier = loka_pre_world_video
+  background_type = video
+  show_background = true
+  source = [source:local]/config/fancymenu/assets/menubackground.mp4
+  loop = true
+  volume = 0.0
+  sound_source = master
+  parallax = false
+  play_in_editor = true
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}

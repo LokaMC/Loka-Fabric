@@ -1,3 +1,22 @@
+# 2.0.3 release candidate — 2026-10-29
+
+**Hold publication until New Gank Isle is out.** These are local, unpublished
+Minecraft 26.3 packages for Fabric Loader 0.20.1:
+
+- `out/Loka-Fabric-26.3-2.0.3.mrpack` — SHA-512 `1b90bd6946eb0d63677115dc6c765ad0d5263c0ca8f95c0ebdf6d7590e4be633d10b5f129ba18cb5a15fb0a301abed8365c69257ba1ed192ef17264cc32c9ec3`
+- `out/Loka-Fabric-Plus-26.3-2.0.3.mrpack` — SHA-512 `e2977a18ec5564eaea653cd81d4cebbb8c438eeaf99d20eea5df11c79c86fe18e3fbbd26078b9bae0859a18b9bf407355d367b5d384e19b928fa5b240c3c64f8`
+
+- [x] Build and verify both archives, overrides and indexed downloads.
+- [x] Check the menu video, slate Controls and Key Binds, Colosseum loading
+      image, watermark, gold loading logo and blurred in-world pause screen.
+- [x] Check the background and watermark in wide and portrait game windows.
+- [ ] After New Gank Isle is out, publish the approved candidate versions.
+
+The runtime checks used isolated test instances, with CraftPresence disabled in
+those instances. No server was joined. See [validation scope](VALIDATION.md).
+
+---
+
 # 2.0.2 release — 2026-10-24
 
 Minecraft 26.3, Fabric Loader 0.20.1, release channel.

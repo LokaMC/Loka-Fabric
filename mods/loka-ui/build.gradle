@@ -1,7 +1,7 @@
 plugins {
     id 'net.fabricmc.fabric-loom' version '1.17.21'
 }
-version = '1.0.0'
+version = '1.0.2'
 group = 'com.lokamc'
 base { archivesName = 'loka-ui' }
 // Allow builds outside OneDrive when sync locks stale compilation directories.
@@ -24,7 +24,12 @@ tasks.register('presenceChecks', JavaExec) {
     mainClass = 'com.lokamc.ui.presence.PresenceChecks'
     if (findProperty('lokaTestUuid')) args findProperty('lokaTestUuid')
 }
-tasks.named('check') { dependsOn 'presenceChecks' }
+tasks.register('backgroundChecks', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.lokamc.ui.BackgroundChecks'
+}
+tasks.named('check') { dependsOn 'presenceChecks', 'backgroundChecks' }
 // The executable regression harness above intentionally needs no JUnit dependency.
 tasks.named('test') { failOnNoDiscoveredTests = false }
 tasks.register('craftPresenceChecks', JavaExec) {

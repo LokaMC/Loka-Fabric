@@ -1,6 +1,6 @@
 """Check assembled contents, required dependencies, shared settings and defaults."""
 from pathlib import Path
-import hashlib, io, json, zipfile
+import hashlib, io, json, re, zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 indexes, contents = [], []
@@ -41,10 +41,26 @@ for edition in ('loka-fabric', 'loka-fabric-plus'):
         assert rpc['dimensionSettings']['dimensionData']['default']['textOverride'] == 'Forge Your Story'
         assert index['versionId'] == metadata['version_number']
         assert json.loads(z.read('overrides/config/packbranding/config.json'))['packVersion'] == metadata['version_number'].split('+', 1)[0]
-        with zipfile.ZipFile(io.BytesIO(z.read('overrides/mods/loka-ui-1.0.0.jar'))) as ui:
+        with zipfile.ZipFile(io.BytesIO(z.read('overrides/mods/loka-ui-1.0.2.jar'))) as ui:
+            assert json.loads(ui.read('fabric.mod.json'))['version'] == '1.0.2'
             mixins = json.loads(ui.read('loka_ui.mixins.json'))['client']
-            assert {'MenuPanoramaBackgroundMixin', 'LevelLoadingScreenMixin', 'ConnectionLoadingBackgroundMixin'} <= set(mixins)
-            assert ui.read('assets/loka_ui/textures/gui/loading_deep_dark.png') == (ROOT / 'assets/loading/DeepDark.png').read_bytes()
+            assert {'MenuPanoramaBackgroundMixin', 'LevelLoadingScreenMixin', 'ConnectionLoadingBackgroundMixin',
+                    'MenuListBackgroundMixin', 'FancyMenuEnableMixin'} <= set(mixins)
+            assert ui.read('assets/loka_ui/textures/gui/loading_colosseum.png') == (ROOT / 'assets/loading/Colosseum.png').read_bytes()
+            assert ui.read('assets/loka_ui/textures/gui/menu_slate.png') == (ROOT / 'assets/menus/SlateBG.png').read_bytes()
+            assert ui.read('assets/loka_ui/textures/gui/loka_watermark.png') == z.read('overrides/config/fancymenu/assets/loka_logo_watermark.png')
+            assert 'assets/loka_ui/textures/gui/loading_deep_dark.png' not in ui.namelist()
+        for layout in ('loka_title_screen.txt', 'loka_singleplayer_background.txt',
+                       'join_multiplayer_screen_layout.txt', 'drippy_loading_overlay_layout.txt',
+                       'loka_pre_world_video.txt'):
+            text = z.read(f'overrides/config/fancymenu/customization/{layout}').decode()
+            assert re.search(r'customization\s*\{\s*action\s*=\s*backgroundoptions\s*\n\s*keepaspectratio\s*=\s*true\s*\n\s*\}', text)
+        drippy = z.read('overrides/config/fancymenu/customization/drippy_loading_overlay_layout.txt').decode()
+        assert 'assets/loading-colosseum.png' in drippy and 'assets/loka_logo_full.png' in drippy
+        assert 'instance_identifier = loka_loading_watermark' in drippy and 'anchor_point = bottom-left' in drippy
+        universal = z.read('overrides/config/fancymenu/customization/loka_pre_world_video.txt').decode()
+        assert 'fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not]' in universal
+        assert 'overrides/config/fancymenu/assets/loading-deep-dark.png' not in z.namelist()
         assert 'background_type = video' in z.read('overrides/config/fancymenu/customization/loka_singleplayer_background.txt').decode()
         contents.append({n: z.read(n) for n in z.namelist() if n.startswith('overrides/')})
         print(f'{index["name"]}: index, override hashes, integrity and defaults passed')

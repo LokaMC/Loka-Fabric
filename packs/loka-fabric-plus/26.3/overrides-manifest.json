@@ -5,7 +5,7 @@
   },
   "overrides/config/drippyloadingscreen/options.txt": {
     "source": "packs/loka-fabric-plus/26.3/overrides/config/drippyloadingscreen/options.txt",
-    "sha512": "5a1579fe1d0f94f06818f1e50bbecbe62a816f3d243dd46e85e7a2f45201f9ac5184215c65c27994f78921ea9a25cb00ad1fb27eab43b35fe83b36b9e1039f11"
+    "sha512": "9e19d2a7e6fcf13008da79c3c7db07130e8fe30a9802d5b9bbfa00163f4fda3335abb38136dea1a638717a250e0307691a484380d5b49676923c795388164e24"
   },
   "overrides/config/fancymenu/assets/button-hover.png": {
     "source": "shared/overrides/config/fancymenu/assets/button-hover.png",
@@ -19,25 +19,13 @@
     "source": "shared/overrides/config/fancymenu/assets/button-normal.png",
     "sha512": "af7f335c58195617c7436ba0e5cbf0d08f9b43c6832e30032e9156d2549a634546db522d297df9c3b887f66f40dfea75a9348995b0832fa55ee2010ce6a76611"
   },
-  "overrides/config/fancymenu/assets/loading-deep-dark.png": {
-    "source": "shared/overrides/config/fancymenu/assets/loading-deep-dark.png",
-    "sha512": "ada0c68eadbe5da45d049e23d89ac179624eb64c315d641e95d51d56c5ce86200e1abb9003a0eee40e0dcac6713878d18bb823e82ea4310b0099a4031f7c309e"
-  },
   "overrides/config/fancymenu/assets/loka_logo_full.png": {
     "source": "shared/overrides/config/fancymenu/assets/loka_logo_full.png",
     "sha512": "131003276bd26d74d175b85fa3f2023572c4aed740e4853e79bfcc69eb88fa5e2a9ffaff14b67777a375882d3b76de5998bae5cbc74181d712913074a29bd5c7"
   },
-  "overrides/config/fancymenu/assets/loka_logo_loading.png": {
-    "source": "shared/overrides/config/fancymenu/assets/loka_logo_loading.png",
-    "sha512": "6df6b482b36aa1304f2aaba12c663e98c594be6007210d1eefd56415d2e389e57156ade42fff0ee97544f5b2fe008c6a3b402ca2bacbc4a07db033252cf78dd8"
-  },
   "overrides/config/fancymenu/assets/loka_logo_watermark.png": {
     "source": "shared/overrides/config/fancymenu/assets/loka_logo_watermark.png",
     "sha512": "034266534fc9ce66af8ef1d6ebb0043506b90726036db37e5a0206c7fd847fdfa18dea58645a648935cf4355d804a65289844b0748dc62954ee91d51e99b0896"
-  },
-  "overrides/config/fancymenu/assets/menu-fallback.png": {
-    "source": "shared/overrides/config/fancymenu/assets/menu-fallback.png",
-    "sha512": "f270c9c5b7db2f71d96ea523e3107caf8f9c9c4d074ad22abf18b4799bee14e89ab20849c69d025d083614e5bd32eb1202d660d37704c0ab3ea383c5a1805498"
   },
   "overrides/config/fancymenu/assets/menubackground.mp4": {
     "external": "blobs/8cf053f997eee83e9313e84fc06673b9be7e0e9006c7df965c16f971c2b89fd5e7d51fa81e92766414be9631b4bcc596e8e201ce98d88e520734ac0987e60798/menubackground.mp4",
@@ -49,15 +37,15 @@
   },
   "overrides/config/fancymenu/customization/drippy_loading_overlay_layout.txt": {
     "source": "shared/overrides/config/fancymenu/customization/drippy_loading_overlay_layout.txt",
-    "sha512": "7b69b137374a7cf63782a38932aed5bc12d8c1d77f3006a4677bd57dad671a130a251cb5815419c34261c5f1e1dd91e8a7de12ebdc271109f5f0a3ef70a4c504"
+    "sha512": "6642e7ca8598bc02cbd83c16547f7726c3b9b02244fa6d342ccd382837fea0b326553bc5941179bc5a1111117bef1f98cfc14cc0a214143564836c2da5976777"
   },
   "overrides/config/fancymenu/customization/join_multiplayer_screen_layout.txt": {
     "source": "shared/overrides/config/fancymenu/customization/join_multiplayer_screen_layout.txt",
-    "sha512": "1120697966a4e927363a5bd418579b79ff3a75e4c7e2d2f84b36ffae1a5a22b73901dfa0ca5e3ff9fec3ba406115cab36b9a192738c4217b03d00a01112781ef"
+    "sha512": "a550289630a6713215251c7eba8836155176bb18959d049ba6f43293aca940aa17493b1037f77e849ea5cb5a367ed97edfb53317e2a7128af4c81757e0e0469f"
   },
   "overrides/config/fancymenu/customization/loka_title_screen.txt": {
     "source": "shared/overrides/config/fancymenu/customization/loka_title_screen.txt",
-    "sha512": "d5fde1df40463ebf8f3a3619f454aa0aa2178d733d9b7618563880cf27d141bba53b6aa7e71d0dbe32401a3466ffb6b1c8bfef9f9ecf2f416112c8e07cf5b6c5"
+    "sha512": "a20e3b4b0fe5ba7d659d64e6b521f29f15031e6bbdb452ddda7a056184cd1785f5745f9e4a9620baa48667429758d1e0898cd13c13b65a99c63c8168219e68e3"
   },
   "overrides/config/fancymenu/options.txt": {
     "source": "shared/overrides/config/fancymenu/options.txt",
@@ -85,7 +73,7 @@
   },
   "overrides/config/packbranding/config.json": {
     "source": "packs/loka-fabric-plus/26.3/overrides/config/packbranding/config.json",
-    "sha512": "54d45a282f4e909e6084395c1be32d15e8b8cacf2473811cba06275946f1a49e8daa7f8864c8b5d24ef634591238692ca05d43da342befd35da69bd9c873bb3d"
+    "sha512": "1db55d5c9091af41f3d9238fa9780939775b376ed850e350a56df44a00b0da2127c2dfe877ff2352e28afacb5414b176ed59c448aa66fa99633339fa3d4aef2d"
   },
   "overrides/config/packbranding/icon.png": {
     "source": "packs/loka-fabric-plus/26.3/overrides/config/packbranding/icon.png",
@@ -121,11 +109,7 @@
   },
   "overrides/config/fancymenu/customization/loka_singleplayer_background.txt": {
     "source": "shared/overrides/config/fancymenu/customization/loka_singleplayer_background.txt",
-    "sha512": "42a826d7d9cc4d2851d42016d632145de08c029e156aeaab5080603b42a4a5e86a5befc8f51c3fd89d91e45adefb822cf219242ae006f6848d8cbcd90b93bee8"
-  },
-  "overrides/mods/loka-ui-1.0.0.jar": {
-    "source": "shared/overrides/mods/loka-ui-1.0.0.jar",
-    "sha512": "60ba9b0c24d64de9938dcc3ecebe67f984fac3be83e9cb0368afb6b0eb2736ea3730d82e2b2ffc333e8abf94df7597d72caf858948b90212496d41d14b25b047"
+    "sha512": "9b112a8f9c77160064be4fdabaedbb3eaf857cb19290e1d8641ea5f405929789f9cffc07c662752781db3373deca857d52f65629ec8ad6323b9ef59d0ed43d07"
   },
   "overrides/config/loka-presence.json": {
     "source": "shared/overrides/config/loka-presence.json",
@@ -134,5 +118,21 @@
   "overrides/config/craftpresence.json": {
     "source": "packs/loka-fabric-plus/26.3/overrides/config/craftpresence.json",
     "sha512": "36ab2dc1db47f0bc8c3a584b69524b83f0a00e90349274b7a889a3390629d63bd97dd7c2f670ed22e5146b58b64e695fb12f262d13143d787715775e6bf49a56"
+  },
+  "overrides/mods/loka-ui-1.0.2.jar": {
+    "source": "shared/overrides/mods/loka-ui-1.0.2.jar",
+    "sha512": "ebd9e221c732d37781bb2ccef41068a8aa033fdd31da43e6b804e6a3354e21e5052bf64c63d2d11550d542c3274bff2664c2371dcd96166d5e27cc8a777c99bc"
+  },
+  "overrides/config/fancymenu/assets/loading-colosseum.png": {
+    "source": "shared/overrides/config/fancymenu/assets/loading-colosseum.png",
+    "sha512": "57d31f42667c6d833e1fd60fccf6361ec61297ec91b2707254d88567cfa98ec189e08d666293eb22b63914e24f91b2629505745904dc47dfb590e7a26530895b"
+  },
+  "overrides/config/fancymenu/assets/menu-slate.png": {
+    "source": "shared/overrides/config/fancymenu/assets/menu-slate.png",
+    "sha512": "b5a4597fe291d2a057be2a68a46bba76ebd19c4042bc8bbcef27d86f12b43085ea2cbfcf5bc7bf4a26cdea9d5c8873977d9d02cb4cdab928d383ca82db948a72"
+  },
+  "overrides/config/fancymenu/customization/loka_pre_world_video.txt": {
+    "source": "shared/overrides/config/fancymenu/customization/loka_pre_world_video.txt",
+    "sha512": "99a5c3d3261c76fe5bb4d04bf17e149e653a3115b0df27e541cf17c233e52fa583d002f6e53bb809e89721f92c0d0d8bc35e6011513831816f21fa4cb5630244"
   }
 }

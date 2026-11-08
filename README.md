@@ -33,9 +33,12 @@ python scripts/verify.py
 
 The builder downloads the hash-pinned shared-assets release archive once. To build before a release exists or while offline, supply `--assets /path/to/Loka-Fabric-26.3-shared-assets.zip`. Outputs go to `out/`. Assembly preserves all indexed downloads and every override byte. ZIP compression metadata can differ from the original release.
 
+The current working tree builds the unpublished `2.0.3` with updated
+menu and loading backgrounds. The install link above remains the latest published release.
+
 ## Build Loka UI
 
-Requires Java 25. Run `gradlew.bat build` inside `mods/loka-ui` on Windows, or `gradle build` with Gradle 9.5.1 on other systems. The build runs presence affiliation/privacy regression checks. The packaged jar is also in `mods/loka-ui/releases` and GitHub Releases.
+Requires Java 25. Run `gradlew.bat build` inside `mods/loka-ui` on Windows, or `gradle build` with Gradle 9.5.1 on other systems. The build runs background-crop and presence affiliation/privacy regression checks. Packaged jars are in `mods/loka-ui/releases`; published builds are also on GitHub Releases.
 
 ## Defaults
 
@@ -46,6 +49,6 @@ updating. See the [icon fix](docs/PRESENCE_ICON_2.0.2.md).
 Release 2.0.1 removes unused Entity Texture Features and Entity Model Features to
 avoid their custom-glint/OIT crash path. See the [diagnosis and validation](docs/CRASH_FIX_2.0.1.md).
 
-1280Ã—720 window, automatic GUI scale, MiniHUD off, shaders off, JermsyBoy installed but unselected, curated keybinds, and one server: **Loka â€” play.lokamc.com**. Shared controls and settings match across editions. FancyMenu editing controls are hidden by modpack mode. Loading terrain uses the original watermarked Deep Dark image; the title and resource-loading screens use the Loka theme.
+1280Ã—720 window, automatic GUI scale, MiniHUD off, shaders off, JermsyBoy installed but unselected, curated keybinds, and one server: **Loka â€” play.lokamc.com**. Shared controls and settings match across editions. FancyMenu editing controls are hidden by modpack mode. The staged version uses Colosseum loading artwork, the Loka menu video, and slate controls backgrounds.
 
 [Loka website](https://lokamc.com/) Â· [Loka Discord](https://discord.gg/loka)

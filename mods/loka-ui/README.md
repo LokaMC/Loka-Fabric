@@ -3,10 +3,14 @@
 Client addon for the Minecraft 26.3 Loka Fabric and Loka Fabric+ packs. Keeps the
 shared menu adjustments and supplies optional CraftPresence affiliation placeholders.
 
-The title and Singleplayer world list share the pack's looping menu video.
-All other out-of-world menus using Minecraft's panorama renderer show the same
-watermarked Deep Dark artwork as terrain loading. Menus over a running world
-retain Minecraft's normal world view and blur.
+The title and ordinary pre-world menus share the pack's looping video. Controls
+and Key Binds use slate; other lists retain their translucent backgrounds. Menus
+over a running world retain Minecraft's normal world view and blur. Loading and progress screens
+use the Colosseum artwork and a separately drawn bottom-left LokaMC watermark.
+The Mojang-style loading overlay uses the standard gold Loka wordmark.
+
+The artwork and video fill the screen without distortion and crop evenly around
+the center; the loading watermark remains anchored to the window.
 
 On a public Loka connection, the activity title is `Loka Minecraft`, with the
 circular standard Loka Fabric logo and the player's head badge. The first detail
@@ -63,8 +67,8 @@ remain available for compatibility but are no longer used by the shipped config.
 
 ## Verification
 
-Build with JDK 25 and the Gradle wrapper. `build` runs the executable affiliation/privacy
-regression harness. `presenceChecks -PlokaTestUuid=<public UUID>` additionally exercises
+Build with JDK 25 and the Gradle wrapper. `build` checks centered background crops and runs
+the executable affiliation/privacy regression harness. `presenceChecks -PlokaTestUuid=<public UUID>` additionally exercises
 the live Loka API. The optional `craftPresenceChecks` task uses the installed CraftPresence
 and UniLib jars to compile real payloads without sending Discord activity; pass their
 paths as `lokaCraftPresenceJar` / `lokaUniLibJar` and a generated CraftPresence configuration

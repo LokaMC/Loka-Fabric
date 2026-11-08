@@ -24,7 +24,7 @@ menu_background {
   instance_identifier = world_list_f6cc2da1-5846-4c83-9a15-43ac823a2435-1787267798049
   background_type = image
   show_background = true
-  source = [source:local]/config/fancymenu/assets/loading-deep-dark.png
+  image_path = [source:local]/config/fancymenu/assets/menu-slate.png
   slide = false
   repeat_texture = false
   parallax = false
@@ -123,4 +123,9 @@ menu_background {
   mouse_position_requires_hold = false
   opacity_multiplier = 1.0
   show_compile_errors = true
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
 }
