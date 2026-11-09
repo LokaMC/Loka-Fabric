@@ -41,8 +41,10 @@ for edition in ('loka-fabric', 'loka-fabric-plus'):
         assert rpc['dimensionSettings']['dimensionData']['default']['textOverride'] == 'Forge Your Story'
         assert index['versionId'] == metadata['version_number']
         assert json.loads(z.read('overrides/config/packbranding/config.json'))['packVersion'] == metadata['version_number'].split('+', 1)[0]
-        with zipfile.ZipFile(io.BytesIO(z.read('overrides/mods/loka-ui-1.0.2.jar'))) as ui:
-            assert json.loads(ui.read('fabric.mod.json'))['version'] == '1.0.2'
+        with zipfile.ZipFile(io.BytesIO(z.read('overrides/mods/loka-ui-1.0.3.jar'))) as ui:
+            ui_metadata = json.loads(ui.read('fabric.mod.json'))
+            assert ui_metadata == json.loads((ROOT / 'mods/loka-ui/src/main/resources/fabric.mod.json').read_bytes())
+            assert ui.read(ui_metadata['icon']) == (ROOT / 'assets/branding/loka-fabric/icon.png').read_bytes()
             mixins = json.loads(ui.read('loka_ui.mixins.json'))['client']
             assert {'MenuPanoramaBackgroundMixin', 'LevelLoadingScreenMixin', 'ConnectionLoadingBackgroundMixin',
                     'MenuListBackgroundMixin', 'FancyMenuEnableMixin'} <= set(mixins)

@@ -1,16 +1,16 @@
-# 2.0.3 release candidate — 2026-10-29
+# 2.0.3 release — 2026-11-08
 
-**Hold publication until New Gank Isle is out.** These are local, unpublished
 Minecraft 26.3 packages for Fabric Loader 0.20.1:
 
-- `out/Loka-Fabric-26.3-2.0.3.mrpack` — SHA-512 `1b90bd6946eb0d63677115dc6c765ad0d5263c0ca8f95c0ebdf6d7590e4be633d10b5f129ba18cb5a15fb0a301abed8365c69257ba1ed192ef17264cc32c9ec3`
-- `out/Loka-Fabric-Plus-26.3-2.0.3.mrpack` — SHA-512 `e2977a18ec5564eaea653cd81d4cebbb8c438eeaf99d20eea5df11c79c86fe18e3fbbd26078b9bae0859a18b9bf407355d367b5d384e19b928fa5b240c3c64f8`
+- `out/Loka-Fabric-26.3-2.0.3.mrpack` — SHA-512 `5d2c77f516433f527e5ce848d1dc001896db35fb16b35b44d7a8a96d13069ae7f4e7fc3accca2f3cc91d3e38f43a49d290f269dc73d3f1e913b173b307655c3b`
+- `out/Loka-Fabric-Plus-26.3-2.0.3.mrpack` — SHA-512 `1792807ea865ea03c2296fb40669ce0379aa20e15e9110ab60e6a87a597cb35b4570093ef6238143cbcbc36355544357b44579872ff4db4e48747c7f1553224c`
 
 - [x] Build and verify both archives, overrides and indexed downloads.
 - [x] Check the menu video, slate Controls and Key Binds, Colosseum loading
       image, watermark, gold loading logo and blurred in-world pause screen.
 - [x] Check the background and watermark in wide and portrait game windows.
-- [ ] After New Gank Isle is out, publish the approved candidate versions.
+- [ ] Publish both archives and Loka UI 1.0.3 on GitHub Releases.
+- [ ] Publish Loka Fabric 2.0.3 and submit Fabric+ 2.0.3 on Modrinth.
 
 The runtime checks used isolated test instances, with CraftPresence disabled in
 those instances. No server was joined. See [validation scope](VALIDATION.md).

@@ -1,32 +1,20 @@
 [
   {
-    "filename": "Loka-Fabric-26.3-2.0.2.mrpack",
-    "bytes": 126831196,
-    "sha512": "ef02ca9dfccdb1dd9bac16e8ce0e1391cd0e71feaa6b7bd80d88a1945c6b030b5b4a553aeb6571c5a4dfc30350ed7efd254a7170c15a76821d78721b5bb5544e",
-    "sha256": "dcaec018acf9d190c53bcf41c0fef7fd5b09b9cfb1135699950623a6af944505"
+    "filename": "Loka-Fabric-26.3-2.0.3.mrpack",
+    "bytes": 150555890,
+    "sha512": "5d2c77f516433f527e5ce848d1dc001896db35fb16b35b44d7a8a96d13069ae7f4e7fc3accca2f3cc91d3e38f43a49d290f269dc73d3f1e913b173b307655c3b",
+    "sha256": "e069467a34107633ae3141bf87dac6111dc19f8de6f845659f78b6a234d4f0fb"
   },
   {
-    "filename": "Loka-Fabric-26.3-shared-assets.zip",
-    "bytes": 129427752,
-    "sha512": "442b9d190ec401cbf825daae86f55e79ee54a95c67874a7224fc570c50d717ee717839c888e0875c72d3618fdf40c7c853a120d432532e8dcdfb43421e08833a",
-    "sha256": "2f273167e1e59496dd4f629acbcf493cc7aeba0276bb4349c5b8f59b3581459b"
+    "filename": "Loka-Fabric-Plus-26.3-2.0.3.mrpack",
+    "bytes": 150562750,
+    "sha512": "1792807ea865ea03c2296fb40669ce0379aa20e15e9110ab60e6a87a597cb35b4570093ef6238143cbcbc36355544357b44579872ff4db4e48747c7f1553224c",
+    "sha256": "09a0ff578df1480c5cf2dcaf086beab6c474909b40a3e7ed721c3839441571ed"
   },
   {
-    "filename": "Loka-Fabric-Plus-26.3-2.0.2.mrpack",
-    "bytes": 126838057,
-    "sha512": "672c394ab6e1404c15177d2dc2944343d891f25aa65297c5ef6145543f69b610ebab80292f95c76bd457fd5ffc0a564719b42b806507bd4a7f556f670de7d3ca",
-    "sha256": "e1d13a8e2a45e7868c07a202df28cadccdb21f80eb971fc5c182984f6d4e7ec4"
-  },
-  {
-    "filename": "Loka-UI-1.0.0-source.zip",
-    "bytes": 2897525,
-    "sha512": "1323e40df6c93d50c5076898bcddd01bd440504f314a66c8c18d468fabdbf01ec4ebe9bcd560ab0e1e865042a819f2d0f66840bcf248643de29620a244e0b905",
-    "sha256": "43bab93daa50cf11c23368b812f1b26ac318f67b74cfedb075083fa88a9bd6d9"
-  },
-  {
-    "filename": "loka-ui-1.0.0.jar",
-    "bytes": 2864213,
-    "sha512": "60ba9b0c24d64de9938dcc3ecebe67f984fac3be83e9cb0368afb6b0eb2736ea3730d82e2b2ffc333e8abf94df7597d72caf858948b90212496d41d14b25b047",
-    "sha256": "eac2ca9d623c2de384a5ccf1aed9c881ba10d7036dbb0ec60b0690da3c402330"
+    "filename": "loka-ui-1.0.3.jar",
+    "bytes": 16833656,
+    "sha512": "50a4111843de4c65809d01231fd28bc27fef8e86cad7ce306dd162003e15c281dbb39d3293c3e03623f7a67a1bfc73407f38232b4292a361f96caf047d46a070",
+    "sha256": "904f5aa3f2acb535bf2753d55c36fd613decbd4acf4930c0de84f37e6ecfd179"
   }
 ]

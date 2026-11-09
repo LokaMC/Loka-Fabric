@@ -119,9 +119,9 @@
     "source": "packs/loka-fabric/26.3/overrides/config/craftpresence.json",
     "sha512": "bbc8ad56cac73fcb2a540088be48ee96fb90d2008e9627818221e6ca6f119c84a36f356a5a315aa1075944366830c5149725cd25ee8f6a167cdbb1463a31e6dd"
   },
-  "overrides/mods/loka-ui-1.0.2.jar": {
-    "source": "shared/overrides/mods/loka-ui-1.0.2.jar",
-    "sha512": "ebd9e221c732d37781bb2ccef41068a8aa033fdd31da43e6b804e6a3354e21e5052bf64c63d2d11550d542c3274bff2664c2371dcd96166d5e27cc8a777c99bc"
+  "overrides/mods/loka-ui-1.0.3.jar": {
+    "source": "shared/overrides/mods/loka-ui-1.0.3.jar",
+    "sha512": "50a4111843de4c65809d01231fd28bc27fef8e86cad7ce306dd162003e15c281dbb39d3293c3e03623f7a67a1bfc73407f38232b4292a361f96caf047d46a070"
   },
   "overrides/config/fancymenu/assets/loading-colosseum.png": {
     "source": "shared/overrides/config/fancymenu/assets/loading-colosseum.png",

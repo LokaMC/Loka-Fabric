@@ -1,9 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "loka_ui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "Loka UI",
-  "description": "Shared Loka Fabric menus and Discord presence with public town/alliance affiliation, Loka artwork and session time. Never publishes player location.",
+  "description": "Custom menus and loading screens for Loka Fabric, plus Discord presence with public town and alliance affiliation, Loka artwork, and session time.",
+  "icon": "assets/loka_ui/icon.png",
   "authors": ["LokaMC"],
   "license": "MIT",
   "environment": "client",

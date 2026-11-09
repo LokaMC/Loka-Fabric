@@ -1,9 +1,9 @@
-# Loka Fabric / Loka Fabric+ 26.3 — 2.0.3 (staged, unpublished)
+# Loka Fabric / Loka Fabric+ 26.3 — 2.0.3
 
 - Use the Colosseum artwork for loading and progress, keeping the independent LokaMC watermark in the lower-left corner and the standard gold Loka wordmark on the loading overlay.
 - Use the menu video throughout pre-world menus, slate for Controls and Key Binds, and preserve the blurred world behind in-world settings.
 - Center artwork and video without stretching, including on ultrawide and portrait displays.
-- Hold publication until New Gank Isle is out.
+- Give Loka UI the Loka Fabric icon and a shorter description in Mod Menu.
 
 ---
 

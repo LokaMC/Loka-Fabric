@@ -7,7 +7,7 @@ The official Fabric client packs for Loka, for Minecraft **26.3**.
 
 ## Install
 
-Download the appropriate `.mrpack` from [GitHub Releases](https://github.com/LokaMC/Loka-Fabric/releases/tag/v2.0.2-26.3) and import it into Modrinth. The archives are larger than GitHub's regular file limit, so downloads live in Releases.
+Download the appropriate `.mrpack` from [GitHub Releases](https://github.com/LokaMC/Loka-Fabric/releases/tag/v2.0.3-26.3) and import it into Modrinth. The archives are larger than GitHub's regular file limit, so downloads live in Releases.
 
 ## Repository
 
@@ -33,8 +33,7 @@ python scripts/verify.py
 
 The builder downloads the hash-pinned shared-assets release archive once. To build before a release exists or while offline, supply `--assets /path/to/Loka-Fabric-26.3-shared-assets.zip`. Outputs go to `out/`. Assembly preserves all indexed downloads and every override byte. ZIP compression metadata can differ from the original release.
 
-The current working tree builds the unpublished `2.0.3` with updated
-menu and loading backgrounds. The install link above remains the latest published release.
+Version `2.0.3` updates menu and loading backgrounds and includes Loka UI 1.0.3.
 
 ## Build Loka UI
 

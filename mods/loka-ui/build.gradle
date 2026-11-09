@@ -1,7 +1,7 @@
 plugins {
     id 'net.fabricmc.fabric-loom' version '1.17.21'
 }
-version = '1.0.2'
+version = '1.0.3'
 group = 'com.lokamc'
 base { archivesName = 'loka-ui' }
 // Allow builds outside OneDrive when sync locks stale compilation directories.

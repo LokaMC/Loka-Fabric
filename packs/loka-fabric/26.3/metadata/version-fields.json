@@ -1,7 +1,7 @@
 {
   "name": "Loka Fabric 2.0.3 — Minecraft 26.3",
   "version_number": "2.0.3",
-  "changelog": "# Loka Fabric / Loka Fabric+ 26.3 — 2.0.3\n\n- Use the Colosseum artwork for loading, with a separate bottom-left LokaMC watermark.\n- Center artwork and videos without stretching on ultrawide and portrait windows.\n- Use the standard gold Loka loading logo, video on pre-world menus, and slate on Controls and Key Binds.\n- Preserve blurred world backgrounds in in-game menus.\n",
+  "changelog": "# Loka Fabric / Loka Fabric+ 26.3 — 2.0.3\n\n- Use the Colosseum artwork for loading, with a separate bottom-left LokaMC watermark.\n- Center artwork and videos without stretching on ultrawide and portrait windows.\n- Use the standard gold Loka loading logo, video on pre-world menus, and slate on Controls and Key Binds.\n- Preserve blurred world backgrounds in in-game menus.\n- Give Loka UI the Loka Fabric icon and a shorter description in Mod Menu.\n",
   "dependencies": [],
   "game_versions": [
     "26.3"
