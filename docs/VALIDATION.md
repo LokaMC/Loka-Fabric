@@ -18,8 +18,9 @@ as well.
 The image and video were also checked in 1280×540 and 540×960 game windows;
 the watermark remained visible and the Colosseum cropped around its center.
 These were window-shape tests, not tests on physical ultrawide or portrait
-monitors. No server was joined. The staged release remains unpublished and is
-held until New Gank Isle is out.
+monitors. No server was joined. A separate Mod Menu check confirmed the Loka
+Fabric icon and updated description in Loka UI 1.0.3. Both published GitHub
+archives match their verified local builds.
 
 ## 2.0.3-preview.1 — 2026-10-27
 

@@ -9,7 +9,7 @@ Minecraft 26.3 packages for Fabric Loader 0.20.1:
 - [x] Check the menu video, slate Controls and Key Binds, Colosseum loading
       image, watermark, gold loading logo and blurred in-world pause screen.
 - [x] Check the background and watermark in wide and portrait game windows.
-- [ ] Publish both archives and Loka UI 1.0.3 on GitHub Releases.
+- [x] Publish and verify both archives and Loka UI 1.0.3 on [GitHub Releases](https://github.com/LokaMC/Loka-Fabric/releases/tag/v2.0.3-26.3).
 - [ ] Publish Loka Fabric 2.0.3 and submit Fabric+ 2.0.3 on Modrinth.
 
 The runtime checks used isolated test instances, with CraftPresence disabled in
