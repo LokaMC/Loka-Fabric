@@ -1,0 +1,26 @@
+{
+  "version": "2.0.3",
+  "minecraft": "26.3",
+  "date": "2026-11-08",
+  "source_commit": "93676b6",
+  "github_release": "https://github.com/LokaMC/Loka-Fabric/releases/tag/v2.0.3-26.3",
+  "github_assets_verified": true,
+  "modrinth": [
+    {
+      "edition": "Loka Fabric",
+      "url": "https://modrinth.com/modpack/loka-fabric/version/A2b9WkSi",
+      "version_id": "A2b9WkSi",
+      "project_status": "public",
+      "upload_success_confirmed": true,
+      "archive_sha512_matches_build": true
+    },
+    {
+      "edition": "Loka Fabric+",
+      "url": "https://modrinth.com/modpack/loka-fabric-plus/version/DPUhqxUn",
+      "version_id": "DPUhqxUn",
+      "project_status": "under_review",
+      "upload_success_confirmed": true,
+      "archive_sha512_matches_build": true
+    }
+  ]
+}

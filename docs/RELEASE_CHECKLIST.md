@@ -10,7 +10,7 @@ Minecraft 26.3 packages for Fabric Loader 0.20.1:
       image, watermark, gold loading logo and blurred in-world pause screen.
 - [x] Check the background and watermark in wide and portrait game windows.
 - [x] Publish and verify both archives and Loka UI 1.0.3 on [GitHub Releases](https://github.com/LokaMC/Loka-Fabric/releases/tag/v2.0.3-26.3).
-- [ ] Publish Loka Fabric 2.0.3 and submit Fabric+ 2.0.3 on Modrinth.
+- [x] Publish [Loka Fabric 2.0.3](https://modrinth.com/modpack/loka-fabric/version/A2b9WkSi) and upload [Fabric+ 2.0.3](https://modrinth.com/modpack/loka-fabric-plus/version/DPUhqxUn) on Modrinth. Fabric+ remains under project review.
 
 The runtime checks used isolated test instances, with CraftPresence disabled in
 those instances. No server was joined. See [validation scope](VALIDATION.md).
